@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/account_setup_simple_land_minWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/account_setup_simple_label_sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_your_name" />
+        <EditText android:textSize="@dimen/account_setup_simple_edit_sp" android:id="@id/account_setup_user_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:layout_weight="1.0" android:inputType="textCapWords" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/account_setup_simple_label_sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_your_email" />
+        <EditText android:textSize="@dimen/account_setup_simple_edit_sp" android:id="@id/account_setup_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:hint="@string/account_setup_email_hint" android:layout_weight="1.0" android:inputType="textNoSuggestions|textEmailAddress" />
+    </TableRow>
+    <CheckBox android:id="@id/alias_own_outgoing_server" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:text="@string/alias_own_outgoing_server" />
+    <TableRow>
+        <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/account_setup_simple_label_sp" android:id="@id/account_setup_label_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_your_password" />
+        <EditText android:textSize="@dimen/account_setup_simple_edit_sp" android:id="@id/account_setup_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:hint="@string/account_setup_password_hint" android:layout_weight="1.0" android:inputType="textPassword" />
+    </TableRow>
+    <CheckBox android:id="@id/account_setup_show_password" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:text="@string/account_setup_show_password" />
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/account_setup_simple_label_sp" android:textColor="?android:textColorSecondary" android:id="@id/account_setup_auto_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="2" android:layout_weight="1.0" />
+    </TableRow>
+</TableLayout>

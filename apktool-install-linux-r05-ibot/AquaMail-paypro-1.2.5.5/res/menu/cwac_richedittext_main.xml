@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="?ic_font_bold" android:id="@id/cwac_richedittext_style_bold" android:title="@string/cwac_richedittext_style_bold" android:showAsAction="ifRoom|withText" />
+    <item android:icon="?ic_font_italic" android:id="@id/cwac_richedittext_style_italic" android:title="@string/cwac_richedittext_style_italic" android:showAsAction="ifRoom|withText" />
+    <item android:icon="?ic_font_underline" android:id="@id/cwac_richedittext_style_underline" android:title="@string/cwac_richedittext_style_underline" android:showAsAction="ifRoom|withText" />
+    <item android:icon="?ic_text_color" android:id="@id/cwac_richedittext_textcolor_menu" android:title="@string/cwac_richedittext_textcolor" android:showAsAction="ifRoom|withText" />
+    <item android:icon="?ic_font_size" android:id="@id/cwac_richedittext_size_menu" android:title="@string/cwac_richedittext_size" android:showAsAction="ifRoom|withText" />
+    <item android:icon="?ic_clear_format" android:id="@id/cwac_richedittext_clear_format" android:title="@string/cwac_richedittext_clear_format" android:showAsAction="ifRoom|withText" />
+</menu>

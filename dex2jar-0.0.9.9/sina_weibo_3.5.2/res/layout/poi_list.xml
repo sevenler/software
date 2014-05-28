@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/searchbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:orientation="horizontal" android:paddingTop="@dimen/searchbar_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/searchbar_padding" android:layout_marginRight="@dimen/searchbar_padding"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <AutoCompleteTextView android:id="@id/AutoCompleteTextView01" android:background="@drawable/search_location" android:paddingLeft="@dimen/searchbar_paddingleft" android:paddingRight="@dimen/searchbar_paddingright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/poi_search_hint" android:singleLine="true" android:completionThreshold="1" android:imeOptions="actionDone" />
+            <Button android:id="@id/btSearch" android:background="@drawable/search_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/AutoCompleteTextView01" android:layout_alignRight="@id/AutoCompleteTextView01" android:layout_centerVertical="true" />
+            <Button android:id="@id/btSearchClear" android:background="@drawable/search_button_clear" android:paddingTop="@dimen/searchbar_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/searchbar_marginright" android:layout_alignBaseline="@id/AutoCompleteTextView01" android:layout_alignRight="@id/AutoCompleteTextView01" />
+        </RelativeLayout>
+        <FrameLayout android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sina.weibo.view.PullDownView android:id="@id/pd_blog_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/lvUser" android:fadingEdge="none" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:scrollingCache="false" android:divider="@drawable/divider_horizontal_timeline" android:dividerHeight="1.0dip" android:layout_weight="0.0" />
+            </com.sina.weibo.view.PullDownView>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

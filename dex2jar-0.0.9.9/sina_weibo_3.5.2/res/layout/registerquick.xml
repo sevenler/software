@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:background="#fff3f3f9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tvUsrname" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/login_user" />
+            <EditText android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/etUsrname" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="5.0dip" android:hint="@string/regist_hint_account" android:selectAllOnFocus="true" android:layout_toRightOf="@id/tvUsrname" />
+            <TextView android:textColor="#ffdd5800" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reg_domain" android:layout_below="@id/etUsrname" android:layout_alignLeft="@id/etUsrname" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tvPassword" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/login_pass" />
+            <EditText android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/etPassword" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="5.0dip" android:hint="@string/regist_hint_password" android:password="true" android:layout_toRightOf="@id/tvPassword" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tvPasswordConfirm" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/login_pass_comf" />
+            <EditText android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/etPasswordConfirm" android:layout_width="fill_parent" android:layout_height="48.0dip" android:hint="@string/regist_hint_confirm_password" android:password="true" android:layout_toRightOf="@id/tvPasswordConfirm" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/tvNickName" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/nickname" />
+            <EditText android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/etNickName" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="5.0dip" android:hint="@string/regist_hint_nick" android:maxLines="2" android:layout_toRightOf="@id/tvNickName" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ff484848" android:id="@id/tvGender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sex" android:layout_centerVertical="true" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/rgSex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="10.0dip" android:layout_toRightOf="@id/tvGender">
+                <RadioButton android:textColor="@android:color/black" android:id="@id/rbrgMale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/male" />
+                <RadioButton android:textColor="@android:color/black" android:id="@id/rbrgFemale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="@string/female" />
+            </RadioGroup>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivAuthPic" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_marginLeft="40.0dip" android:src="@drawable/loading_failed" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <Button android:textColor="#ff000000" android:layout_gravity="right" android:id="@id/btnChangeaAuthPic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/Authpic_MessUp_Change" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <EditText android:textColor="@android:color/black" android:id="@id/etAuthCode" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_margin="10.0dip" android:inputType="textVisiblePassword" />
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/btnOk" android:background="@drawable/regist_weibo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/regist_weibo" />
+    </LinearLayout>
+</ScrollView>

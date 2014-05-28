@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list apk:oneshot="false"
+  xmlns:apk="http://schemas.android.com/apk/res/android">
+    <item apk:duration="200" apk:drawable="@drawable/contacts_find_shake_01" />
+    <item apk:duration="1500" apk:drawable="@drawable/contacts_find_shake_02" />
+</animation-list>

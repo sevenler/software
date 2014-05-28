@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/entity_note" android:background="@color/red_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/entity_item_user_title_height" android:layout_height="fill_parent">
+            <com.guoku.ui.widget.GKNetworkImageView android:id="@id/avatar" android:layout_width="@dimen/entity_item_user_title_height" android:layout_height="@dimen/entity_item_user_title_height" style="@style/imageStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="top" android:id="@id/nickname" android:layout_width="150.0dip" android:layout_height="wrap_content" style="@style/NormalTitleText" />
+                <TextView android:gravity="center_vertical" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TimeText" />
+                <ImageView android:id="@id/selection" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/message_icon_selection" android:scaleType="centerInside" android:layout_toLeftOf="@id/time" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:id="@id/content" style="@style/DiscriptionTextView" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_margin="0.0dip" style="@style/GridItemLine" />
+    <TextView android:gravity="center" android:id="@id/count_title" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/NormalTitleText" />
+</LinearLayout>

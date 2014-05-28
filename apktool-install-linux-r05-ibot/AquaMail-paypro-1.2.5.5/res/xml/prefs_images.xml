@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/prefs_category_wifi">
+        <CheckBoxPreference android:title="@string/prefs_show_pictures" android:key="prefsShowPicturesWifi" android:summary="@string/prefs_show_pictures_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_mobile">
+        <CheckBoxPreference android:title="@string/prefs_show_pictures" android:key="prefsShowPicturesMobile" android:summary="@string/prefs_show_pictures_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_spam" android:key="prefsCategorySpam">
+        <CheckBoxPreference android:title="@string/prefs_spam_image_known_check" android:key="prefsSpamImageKnownCheck" android:summary="@string/prefs_spam_image_known_check_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/prefs_spam_image_known_trust_contacts" android:key="prefsSpamImageKnownTrustContacts" android:summary="@string/prefs_spam_image_known_trust_contacts_summary" android:defaultValue="false" />
+        <org.kman.AquaMail.prefs.ImageResetKnownPreferences android:title="@string/prefs_spam_image_known_reset" android:key="prefsSpamImageKnownReset" android:summary="@string/prefs_spam_image_known_reset_summary" android:dialogMessage="@string/prefs_spam_image_known_reset_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

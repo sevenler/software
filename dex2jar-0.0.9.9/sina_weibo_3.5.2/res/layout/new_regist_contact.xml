@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_regist_contact_image_pading_top" android:layout_marginBottom="@dimen/new_regist_contact_image_pading_bottom" android:src="@drawable/findfriends_contacts_start" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff767d87" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_regist_interest_people_button_pannding_left" android:layout_marginRight="@dimen/new_regist_interest_people_button_pannding_left" android:layout_marginBottom="@dimen/new_regist_contact_text_pading_bottom" android:text="@string/new_regist_contact_activity_content" android:lineSpacingExtra="@dimen/new_regist_verify_line_space_tx" />
+    <LinearLayout android:id="@id/lyUserguideContact" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.sina.weibo.view.UserGuideSearchView android:id="@id/uploadContact" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

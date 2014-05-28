@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/bb_ic_menu_delete" android:id="@id/message_list_op_smart_delete" android:visible="false" android:title="@string/message_list_op_smart_delete" android:showAsAction="always" />
+    <item android:icon="@drawable/bb_ic_menu_close_clear_cancel" android:id="@id/message_list_op_delete" android:title="@string/message_list_op_delete" android:alphabeticShortcut="x" android:showAsAction="always" />
+    <item android:icon="@drawable/bb_ic_menu_delete" android:id="@id/message_list_op_move_deleted" android:title="@string/message_list_op_move_deleted" android:alphabeticShortcut="d" android:showAsAction="always" />
+    <item android:icon="@drawable/icon_hide_from_view" android:id="@id/message_list_op_hide" android:title="@string/message_list_op_hide" android:alphabeticShortcut="h" android:showAsAction="always" />
+    <item android:icon="?ic_mark_read" android:id="@id/message_list_op_as_read" android:title="@string/message_list_op_as_read" android:showAsAction="ifRoom" />
+    <item android:icon="?ic_mark_unread" android:id="@id/message_list_op_as_unread" android:title="@string/message_list_op_as_unread" android:showAsAction="ifRoom" />
+    <item android:icon="?ic_mark_star_on" android:id="@id/message_list_op_as_star" android:title="@string/message_list_op_as_star" android:showAsAction="ifRoom" />
+    <item android:icon="?ic_mark_star_off" android:id="@id/message_list_op_as_unstar" android:title="@string/message_list_op_as_unstar" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/bb_ic_menu_archive" android:id="@id/message_list_op_move" android:visible="false" android:title="@string/message_list_op_move" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/bb_ic_menu_upload" android:id="@id/message_list_op_restore" android:visible="false" android:title="@string/message_list_op_restore" android:showAsAction="ifRoom" />
+    <item android:icon="?ic_menu_selectall" android:id="@id/message_list_menu_check_all" android:title="@string/message_list_menu_check_all" android:alphabeticShortcut="a" android:showAsAction="ifRoom" />
+    <item android:id="@id/message_list_op_no_send" android:visible="false" android:title="@string/message_list_op_no_send" android:showAsAction="never" />
+    <item android:icon="?ic_menu_movespam" android:id="@id/message_list_op_move_spam" android:visible="false" android:title="@string/message_list_op_move_spam" />
+    <item android:icon="@drawable/bb_ic_menu_info_details" android:id="@id/message_list_op_headers" android:visible="false" android:title="@string/message_list_op_headers" />
+</menu>

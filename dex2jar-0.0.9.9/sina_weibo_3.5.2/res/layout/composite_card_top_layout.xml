@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge android:id="@id/composite_card_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/composite_card_chat_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/messages_time_separator" android:drawableRight="@drawable/messages_time_separator" android:drawablePadding="5.0dip" style="@style/chat_time" />
+    <RelativeLayout android:id="@id/composite_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

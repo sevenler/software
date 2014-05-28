@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/help_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_hint_swipe_to_attachments" style="@style/HelpText" />
+    <org.kman.AquaMail.view.TiledImageView android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/help_arrow_left" />
+    <Button android:layout_gravity="right" android:id="@id/help_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_hint_close" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_message_known">
+        <item quantity="other">%d messages will be permanently deleted.</item>
+        <item quantity="one">One message will be permanently deleted.</item>
+    </plurals>
+    <plurals name="confirm_move_deleted_message_known">
+        <item quantity="other">%d messages will be moved to [ Deleted ] folder.</item>
+        <item quantity="one">One message will be moved to [ Deleted ] folder.</item>
+    </plurals>
+    <plurals name="message_list_drag_title">
+        <item quantity="other">Move %d messages</item>
+        <item quantity="one">Move one message</item>
+    </plurals>
+    <plurals name="message_list_menu_title">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">One message</item>
+    </plurals>
+    <plurals name="unread_messages_message">
+        <item quantity="other">%1$d unread messages</item>
+        <item quantity="one">%1$d unread message</item>
+    </plurals>
+    <plurals name="unread_messages_smart_ticker">
+        <item quantity="other">%1$d unread messages in Smart Folder</item>
+        <item quantity="one">%1$d unread message in Smart Folder</item>
+    </plurals>
+    <plurals name="unread_messages_ticker">
+        <item quantity="other">%1$d unread messages in %2$s</item>
+        <item quantity="one">%1$d unread message in %2$s</item>
+    </plurals>
+</resources>

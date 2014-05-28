@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/new_server_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <EditText android:id="@id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="" android:hint="@string/new_port_hint" android:singleLine="true" android:maxLength="4" android:digits="1234567890" android:inputType="number" />
+</LinearLayout>

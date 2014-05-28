@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/rl_portrait" android:layout_width="74.0dip" android:layout_height="74.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_card_pic" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:adjustViewBounds="false" />
+        <ImageView android:layout_gravity="bottom|right|center" android:id="@id/iv_portrait_mask" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v_yellow" />
+    </FrameLayout>
+    <TextView android:gravity="center" android:id="@id/tv_nick_name" android:layout_width="74.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" />
+</LinearLayout>

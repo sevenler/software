@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ly_weibo_browser" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sina.weibo.view.LoadingBar android:id="@id/loading_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/weibobrowser_loadingbar_height" android:layout_alignParentTop="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ly_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/bottom_toolbar_style">
+            <com.sina.weibo.view.TabView android:id="@id/tv_goback" style="@style/detail_btn_left" />
+            <com.sina.weibo.view.TabView android:id="@id/tv_goforward" style="@style/detail_btn_middle" />
+            <com.sina.weibo.view.TabView android:id="@id/tv_refresh" style="@style/detail_btn_middle" />
+            <com.sina.weibo.view.TabView android:id="@id/tv_forward" style="@style/detail_btn_middle" />
+            <com.sina.weibo.view.TabView android:id="@id/tv_more" style="@style/detail_btn_right" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ly_toolbar" android:layout_below="@id/loading_bar" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/ly_received_error" android:background="@color/weibo_error_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ly_toolbar" android:layout_below="@id/loading_bar">
+            <ImageView android:id="@id/ivPic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/settings_push_error" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/moreitem_text_color" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30.0dip" android:text="@string/received_error" android:layout_below="@id/ivPic" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@color/getfriend_contacts_invite_text" android:gravity="center" android:id="@id/tvClose" android:background="@drawable/userinfo_relationship_invitebutton" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:text="@string/close" android:layout_below="@id/tvContent" android:layout_alignParentLeft="true" />
+            <TextView android:textColor="@color/fan_item_btn_text" android:gravity="center" android:id="@id/tvRetry" android:background="@drawable/regist_weibo" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginRight="30.0dip" android:text="@string/weibo_btn_retry" android:layout_alignBaseline="@id/tvClose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/ly_video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

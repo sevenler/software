@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/diag_dates_help" />
+    <TextView android:textAppearance="?android:textAppearance" android:id="@id/diag_dates_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" />
+    <Spinner android:id="@id/diag_dates_folder_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:id="@id/diag_dates_send" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diag_dates_send" />
+    <View style="@style/Edge.H" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/diag_dates_start" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_margin="0.0px" android:text="@string/diag_dates_start" android:layout_weight="1.0" />
+        <Button android:enabled="false" android:id="@id/diag_dates_stop" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="4.0px" android:text="@string/diag_dates_stop" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aquamail_ui_prefsShowMoreFolders_key">prefsShowMoreFolders</string>
+    <string name="aquamail_ui_prefsUITwoPane">prefsUITwoPane</string>
+    <string name="aquamail_ui_prefsUITwoPanePortSplit">prefsUITwoPanePortSplit</string>
+</resources>

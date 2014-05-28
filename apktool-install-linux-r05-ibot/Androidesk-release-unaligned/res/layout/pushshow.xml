@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/grey_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/top_bar_layout">
+        <TextView android:text="@string/push_title" style="@style/top_bar_title" />
+        <ImageView android:id="@id/imgpushback" style="@style/top_bar_back" />
+    </FrameLayout>
+    <View style="@style/shape_line" />
+    <ScrollView android:background="@color/grey_background" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:layout_height="wrap_content" style="@style/box_linearlayout">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingBottom="1.0dip" android:clickable="false" style="@style/box_top">
+                    <TextView android:textSize="17.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/push_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="1.0dip" android:clickable="false" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" style="@style/box_medium">
+                    <com.androidesk.dialog.AndroideskLoading android:id="@id/push_loading" android:background="@color/grey_line" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:id="@id/push_image" android:background="@color/grey_line" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="320.0dip" android:layout_height="240.0dip" android:layout_marginRight="5.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="14.0dip" android:textColor="#ff3e3e3e" android:id="@id/push_content" android:paddingLeft="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" />
+                <View style="@style/shape_line" />
+                <LinearLayout android:gravity="center" android:id="@id/mylayout" android:layout_height="50.0dip" style="@style/box_bottom">
+                    <TextView android:textSize="15.0dip" android:textColor="#ff125074" android:layout_width="0.0dip" android:layout_marginLeft="5.0dip" android:text="@string/push_event1" android:layout_weight="1.0" style="@style/box_text" />
+                    <LinearLayout android:id="@id/wallpaper_new" android:layout_width="40.0dip" android:layout_height="17.0dip" android:layout_marginRight="6.0dip" />
+                    <ImageView android:contentDescription="@string/preference_arrow" style="@style/box_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

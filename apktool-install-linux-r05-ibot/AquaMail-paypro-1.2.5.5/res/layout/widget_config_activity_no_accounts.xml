@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/widget_config_general_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/account_setup_simple_label_sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_config_no_accounts" android:maxLines="15" />
+    <View android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/widget_config_general_padding" android:layout_marginBottom="@dimen/widget_config_general_padding" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/button_launch_andromail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_launch_andromail" />
+</LinearLayout>

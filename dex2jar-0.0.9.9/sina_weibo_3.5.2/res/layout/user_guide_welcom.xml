@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:weibo="http://schemas.android.com/apk/res/com.sina.weibo"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lvUser" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" android:divider="@drawable/divider_horizontal_timeline" android:dividerHeight="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/liveview_prefs_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/liveview_plugin_enabled" android:key="pluginEnabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/liveview_plugin_only_unread" android:key="pluginOnlyUnread" android:dependency="pluginEnabled" android:defaultValue="true" />
+</PreferenceScreen>

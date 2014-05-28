@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_message_known">
+        <item quantity="other">%d wiadomości zostanie usunięte bezpowrotnie.</item>
+        <item quantity="one">Jedna wiadomość zostanie usunięta bezpowrotnie.</item>
+    </plurals>
+    <plurals name="confirm_move_deleted_message_known">
+        <item quantity="other">%d wiadomości zostanie przeniesionych do folderu [ Kosz ].</item>
+        <item quantity="one">Jedna wiadomość zostanie przeniesiona do folderu [ Kosz ].</item>
+    </plurals>
+    <plurals name="message_list_drag_title">
+        <item quantity="other">Przenieś %d wiadomości</item>
+        <item quantity="one">Przenieś jedną wiadomość</item>
+    </plurals>
+    <plurals name="message_list_menu_title">
+        <item quantity="other">%d wiadomości</item>
+        <item quantity="one">Jedna wiadomość</item>
+    </plurals>
+    <plurals name="unread_messages_message">
+        <item quantity="other">%1$d nieprzeczytanych wiadomości</item>
+        <item quantity="one">%1$d nieprzeczytana wiadomość</item>
+    </plurals>
+    <plurals name="unread_messages_smart_ticker">
+        <item quantity="other">%1$d nieprzeczytanych wiadomości w Inteligentnej Skrzynce</item>
+        <item quantity="one">%1$d nieprzeczytana wiadomość w Inteligentnej Skrzynce</item>
+    </plurals>
+    <plurals name="unread_messages_ticker">
+        <item quantity="other">%1$d nieprzeczytanych wiadomości w %2$s</item>
+        <item quantity="one">%1$d nieprzeczytana wiadomość w %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/wv_page_bottom_bar" android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/bottom_toolbar_style">
+        <LinearLayout android:gravity="center" android:id="@id/ll_wv_page_home" android:background="@drawable/toolbar_public_background" android:layout_width="128.0dip" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/portrait" android:saveEnabled="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/portrait" android:scaleType="fitXY" android:adjustViewBounds="false" />
+                <ImageView android:id="@id/portraitRound" android:saveEnabled="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/wv_page_toolbar_portrait_round" android:scaleType="fitXY" />
+            </FrameLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/detail_toolbar_text" android:id="@id/wv_page_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/wv_page_visit_home" />
+        </LinearLayout>
+        <ImageView android:id="@id/toolbar_forward_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/toolbar_forward_icon" android:scaleType="center" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/toolbar_like_icon_fl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/toolbar_like_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/toolbar_like" android:scaleType="center" />
+        </FrameLayout>
+        <ImageView android:id="@id/toolbar_more_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/toolbar_more_icon" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.sina.weibo.view.InfoPageListView android:id="@id/lvCard" android:fadingEdge="none" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:scrollingCache="false" android:dividerHeight="0.0dip" android:layout_above="@id/wv_page_bottom_bar" android:fastScrollEnabled="true" android:isScrollContainer="false" />
+</RelativeLayout>

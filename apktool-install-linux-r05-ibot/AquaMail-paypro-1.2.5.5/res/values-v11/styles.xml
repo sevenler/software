@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Locale.Dark" parent="@*android:style/Theme.Holo" />
+    <style name="Theme.Locale.Dialog" parent="@*android:style/Theme.Holo.Dialog" />
+    <style name="Theme.Locale.Light" parent="@*android:style/Theme.Holo.Light" />
+    <style name="AquaMailTheme.Dark" parent="@style/ThemeCompat.Dark.AquaBase">
+        <item name="android:colorBackground">@color/theme_dark_window_background</item>
+        <item name="android:windowBackground">@color/theme_dark_window_background</item>
+        <item name="messageListSeparator">?android:listDivider</item>
+        <item name="newMessageEmailViewStyle">?android:autoCompleteTextViewStyle</item>
+        <item name="holoLikeDialogTheme">@null</item>
+        <item name="activatedBackground">?android:activatedBackgroundIndicator</item>
+    </style>
+    <style name="AquaMailTheme.Light" parent="@style/ThemeCompat.Light.AquaBase">
+        <item name="android:colorBackground">@color/theme_light_window_background</item>
+        <item name="android:windowBackground">@color/theme_light_window_background</item>
+        <item name="messageListSeparator">?android:listDivider</item>
+        <item name="newMessageEmailViewStyle">?android:autoCompleteTextViewStyle</item>
+        <item name="holoLikeDialogTheme">@null</item>
+        <item name="activatedBackground">?android:activatedBackgroundIndicator</item>
+    </style>
+    <style name="BogusBarDark" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/theme_dark_bb_background</item>
+        <item name="bb_backgroundSplit">@drawable/theme_dark_bb_background_split</item>
+    </style>
+    <style name="BogusBarLight" parent="@*android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/theme_light_bb_background</item>
+        <item name="bb_backgroundSplit">@drawable/theme_light_bb_background_split</item>
+    </style>
+    <style name="MyAlertListTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearance</item>
+    </style>
+    <style name="MyAlertListTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="MyAutoCompleteDropDownTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="MyAutoCompleteDropDownTextAppearanceSmall">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="MyDialogTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="MyDropDownTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearance</item>
+    </style>
+    <style name="MyDropDownTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="MyListTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearance</item>
+    </style>
+    <style name="MyListTextAppearanceLarge">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+    <style name="MyListTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="MyListTextAppearanceSmall">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="RibbonBar.Separator" parent="@style/RibbonBar.SeparatorBase">
+        <item name="android:background">?android:dividerVertical</item>
+    </style>
+    <style name="SeekBarFix" />
+    <style name="ThemeCompat" />
+    <style name="ThemeCompat.Default.Dark" parent="@style/ThemeCompat.Holo.Dark" />
+    <style name="ThemeCompat.Default.Light" parent="@style/ThemeCompat.Holo.Light" />
+    <style name="ThemeCompat.Dialog" parent="@style/ThemeCompat" />
+    <style name="ThemeCompat.Dialog.Dark" parent="@*android:style/Theme.Holo.Dialog" />
+    <style name="ThemeCompat.Dialog.Light" parent="@*android:style/Theme.Holo.Light.Dialog" />
+    <style name="ThemeCompat.DialogWhenLarge" parent="@style/ThemeCompat" />
+    <style name="ThemeCompat.DialogWhenLarge.Dark" parent="@*android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="ThemeCompat.DialogWhenLarge.Light" parent="@*android:style/Theme.Holo.Light.DialogWhenLarge" />
+    <style name="ThemeCompat.Holo" parent="@style/ThemeCompat" />
+    <style name="ThemeCompat.Holo.Dark" parent="@*android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/BogusBarDark</item>
+        <item name="android:actionModeBackground">@drawable/theme_dark_bb_cab_background_top</item>
+        <item name="bb_actionBarSize">?android:actionBarSize</item>
+        <item name="bb_homeAsUpIndicator">?android:homeAsUpIndicator</item>
+        <item name="bb_actionBarItemBackground">@drawable/bb_item_background_selector</item>
+        <item name="bb_actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="bb_panelBackground">@drawable/theme_dark_bb_menu_hardkey_panel</item>
+        <item name="bb_textAppearanceLargePopupMenu">?android:textAppearanceLargePopupMenu</item>
+        <item name="bb_popupMenuStyle">?android:popupMenuStyle</item>
+        <item name="bb_actionDropDownStyle">?android:dropDownSpinnerStyle</item>
+        <item name="bb_actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="bb_actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="bb_listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
+        <item name="bb_actionModeSplitBackground">@drawable/theme_dark_bb_cab_background_bottom</item>
+        <item name="bb_actionModeCloseBackground">@drawable/theme_dark_bb_btn_cab_done</item>
+        <item name="bb_actionModeCloseDrawable">?android:actionModeCloseDrawable</item>
+        <item name="bb_dividerVertical">?android:dividerVertical</item>
+    </style>
+    <style name="ThemeCompat.Holo.Light" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/BogusBarLight</item>
+        <item name="android:actionModeBackground">@drawable/theme_light_bb_cab_background_top</item>
+        <item name="bb_actionBarSize">?android:actionBarSize</item>
+        <item name="bb_homeAsUpIndicator">?android:homeAsUpIndicator</item>
+        <item name="bb_actionBarItemBackground">@drawable/bb_item_background_selector</item>
+        <item name="bb_actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="bb_panelBackground">@drawable/theme_light_bb_menu_hardkey_panel</item>
+        <item name="bb_textAppearanceLargePopupMenu">?android:textAppearanceLargePopupMenu</item>
+        <item name="bb_popupMenuStyle">?android:popupMenuStyle</item>
+        <item name="bb_actionDropDownStyle">?android:dropDownSpinnerStyle</item>
+        <item name="bb_actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="bb_actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="bb_listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
+        <item name="bb_actionModeSplitBackground">@drawable/theme_light_bb_cab_background_bottom</item>
+        <item name="bb_actionModeCloseBackground">@drawable/theme_light_bb_btn_cab_done</item>
+        <item name="bb_actionModeCloseDrawable">?android:actionModeCloseDrawable</item>
+        <item name="bb_dividerVertical">?android:dividerVertical</item>
+    </style>
+    <style name="EmailView" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:inputType">textMultiLine|textEmailAddress</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:dropDownVerticalOffset">6.0dip</item>
+    </style>
+</resources>

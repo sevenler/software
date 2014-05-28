@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aqm="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:title="@string/uilock_type_none" android:key="prefUILockNone" />
+    <Preference android:persistent="false" android:title="@string/uilock_type_pin" android:key="prefUILockPin" />
+    <org.kman.AquaMail.prefs.IntegerListPreference android:title="@string/uilock_timeout" android:key="uilock_timeout" android:defaultValue="15" aqm:entryList="@array/uilock_timeout_entries" aqm:valueList="@array/uilock_timeout_values" />
+    <CheckBoxPreference android:title="@string/uilock_lock_on_screen_off" android:key="uilock_onScreenOff" android:summary="@string/uilock_lock_on_screen_off_summary" android:defaultValue="true" />
+</PreferenceScreen>

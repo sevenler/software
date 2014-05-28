@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/searchbar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ly_left" android:background="@drawable/search_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/square_searchbar_margin_left">
+        <TextView android:textSize="13.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_search_group" android:background="@drawable/square_search_filter_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/square_search_filter_all" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <EditText android:textSize="14.0sp" android:layout_gravity="center_vertical" android:id="@id/tv_search_keyword" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:singleLine="true" android:imeOptions="actionSearch" />
+    </LinearLayout>
+    <ImageView android:id="@id/btn_voice" android:paddingLeft="7.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/btn_clear" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

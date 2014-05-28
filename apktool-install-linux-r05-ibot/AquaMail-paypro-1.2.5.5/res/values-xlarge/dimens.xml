@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="account_setup_inner_padding">84.0dip</dimen>
+    <dimen name="account_setup_edit_spacing">6.0dip</dimen>
+    <dimen name="account_setup_indent_left">36.0dip</dimen>
+    <dimen name="account_setup_label_spacing">12.0dip</dimen>
+    <dimen name="account_setup_large_spacing">48.0dip</dimen>
+    <dimen name="account_setup_max_width">600.0dip</dimen>
+    <dimen name="account_setup_simple_land_minWidth">560.0dip</dimen>
+    <dimen name="message_display_header_badge_size">52.0dip</dimen>
+    <dimen name="message_display_header_font_size_larger">20.0sp</dimen>
+    <dimen name="message_display_header_font_size_smaller">18.0sp</dimen>
+    <dimen name="message_display_header_font_size_tiny">16.0sp</dimen>
+    <dimen name="widget_config_general_padding">12.0dip</dimen>
+    <dimen name="widget_config_icon_padding">24.0dip</dimen>
+    <dimen name="account_setup_simple_edit_sp">22.0sp</dimen>
+    <dimen name="account_setup_simple_label_sp">18.0sp</dimen>
+    <dimen name="message_display_panel_button_size">0.0px</dimen>
+    <dimen name="message_navigate_move_distance">120.0dip</dimen>
+</resources>

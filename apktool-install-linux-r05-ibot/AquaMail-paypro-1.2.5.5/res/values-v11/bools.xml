@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="aquamail_message_view_zoom_default">true</bool>
+    <bool name="list_widget_20_1_4_enabled">false</bool>
+    <bool name="list_widget_hc_enabled">true</bool>
+</resources>

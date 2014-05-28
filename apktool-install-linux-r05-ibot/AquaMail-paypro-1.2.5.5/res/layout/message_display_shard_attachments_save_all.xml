@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/message_display_header_font_size_smaller" android:textColor="?android:textColorSecondary" android:ellipsize="middle" android:gravity="center_vertical" android:paddingLeft="@dimen/message_display_attachment_padding_horz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/message_display_attachment_item_height" android:text="@string/attachment_save_all" android:singleLine="true" android:drawableLeft="@drawable/bb_ic_menu_save" android:drawablePadding="@dimen/message_display_attachment_padding_horz"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

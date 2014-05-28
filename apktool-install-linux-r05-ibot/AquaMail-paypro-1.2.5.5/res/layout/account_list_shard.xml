@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.kman.AquaMail.view.AccountListView android:id="@id/account_list_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:childDivider="?messageListSeparator" android:divider="?messageListSeparator" android:dividerHeight="1.0dip" android:layout_weight="1.0" android:headerDividersEnabled="true" android:footerDividersEnabled="true" android:fadeScrollbars="true" />
+    <ViewStub android:id="@id/account_list_new_account_stub" android:layout="@layout/account_list_new_account_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

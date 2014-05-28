@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="skin_cell_width">146.29999dip</dimen>
+    <dimen name="local_skin_cell_height">119.29999dip</dimen>
+    <dimen name="local_skin_cell_width">157.5dip</dimen>
+    <dimen name="online_skin_cell_height">141.79999dip</dimen>
+    <dimen name="online_skin_cell_width">150.79999dip</dimen>
+    <dimen name="skin_cell_name_padding_left">9.0dip</dimen>
+    <dimen name="skin_cell_name_margin_top">3.0dip</dimen>
+    <dimen name="skin_cell_thumbail_margin_top">3.0dip</dimen>
+</resources>

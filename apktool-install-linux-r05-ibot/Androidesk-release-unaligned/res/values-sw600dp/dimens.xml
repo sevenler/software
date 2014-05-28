@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appwidget_min_width">294.0dip</dimen>
+    <dimen name="appwidget_min_height">294.0dip</dimen>
+    <dimen name="appwidget_large_min_width">400.0dip</dimen>
+    <dimen name="appwidget_large_min_height">400.0dip</dimen>
+</resources>

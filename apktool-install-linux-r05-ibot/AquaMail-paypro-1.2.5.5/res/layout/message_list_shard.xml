@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.kman.AquaMail.view.FasterScrollerView android:id="@id/message_list_faster_scroller" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <org.kman.AquaMail.view.MessageListView android:id="@id/message_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?messageListSeparator" android:dividerHeight="1.0dip" android:fadeScrollbars="true" android:overScrollMode="ifContentScrolls" />
+    </org.kman.AquaMail.view.FasterScrollerView>
+    <ProgressBar android:layout_gravity="center" android:id="@id/message_list_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+    <TextView android:id="@id/error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" style="@style/MyTextError" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_marginBottom="20.0dip" style="@style/GridItemLine" />
+    <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/hot_word" style="@style/NormalTitleText" />
+    <View android:layout_marginBottom="0.0dip" style="@style/GridItemLine" />
+    <com.guoku.ui.widget.GKGridView android:gravity="top|center" android:id="@id/list" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:verticalSpacing="10.0dip" android:columnWidth="100.0dip" android:numColumns="auto_fit" style="@style/NoSelectorListViewStyle" />
+</LinearLayout>

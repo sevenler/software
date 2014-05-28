@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bb_holo_blue_focused">#ff0099cc</color>
+    <color name="bb_holo_blue_pressed">#ff33b5e5</color>
+    <color name="bb_holo_blue_strong">#ff6699ff</color>
+    <color name="bb_item_background_pressed">#a033b5e5</color>
+    <color name="bb_item_background_selected">#a00099cc</color>
+    <color name="bb_neutral_grey">#ff808080</color>
+    <color name="theme_dark_bb_background">#ff364c63</color>
+    <color name="theme_light_bb_background">#ffdbe5f0</color>
+</resources>

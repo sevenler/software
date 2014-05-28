@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="40.0dip">
+        <ImageView android:background="@drawable/bg_cell_bottom" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/socical_login_title" android:background="@drawable/bg_point_window" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/other_login_title" android:layout_centerInParent="true" style="@style/DiscriptionText" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/login_sina" android:background="@drawable/shape_search_tag" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+            <ImageButton android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/icon_sina" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/title_loging_sina" style="@style/DiscriptionText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/login_taobao" android:background="@drawable/shape_search_tag" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+            <ImageButton android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/icon_taobao" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/title_loging_taobao" style="@style/DiscriptionText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

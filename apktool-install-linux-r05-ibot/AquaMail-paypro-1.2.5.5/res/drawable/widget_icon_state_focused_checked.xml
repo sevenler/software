@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="4.0dip" />
+    <padding android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip" />
+    <gradient android:startColor="@color/widget_icon_focused_1" android:endColor="@color/widget_icon_focused_1" android:angle="90.0" android:centerColor="@color/widget_icon_focused_2" />
+    <stroke android:width="3.0dip" android:color="@color/widget_icon_checked" />
+</shape>

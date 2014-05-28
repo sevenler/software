@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <TextView android:gravity="center" android:id="@id/msgFilterHeadTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="\u0020@me weibo (all)" />
+        <ImageView android:id="@id/msgFilterHeadArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/msg_center_title_arrow" />
+    </LinearLayout>
+</FrameLayout>

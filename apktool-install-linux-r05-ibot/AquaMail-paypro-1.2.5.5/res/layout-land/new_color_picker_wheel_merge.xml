@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.larswerkman.colorpicker.ColorPicker android:layout_gravity="center_vertical" android:id="@id/new_color_picker_wheel_picker" android:tag="viewPagerIgnore" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:tag="viewPagerIgnore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <com.larswerkman.colorpicker.SaturationBar android:layout_gravity="center_horizontal" android:id="@id/new_color_picker_wheel_saturationbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.larswerkman.colorpicker.ValueBar android:layout_gravity="center_horizontal" android:id="@id/new_color_picker_wheel_valuebar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+    </LinearLayout>
+</LinearLayout>

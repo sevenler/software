@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/entity_detail_create_note_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/new_note" android:layout_width="fill_parent" android:layout_height="@dimen/entity_detail_create_note_item_content_height">
+        <ImageButton android:id="@id/note_poke" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/detail_icon_create" android:scaleType="centerInside" />
+        <TextView android:gravity="center_vertical" android:id="@id/new_note_image" android:layout_width="wrap_content" android:layout_height="@dimen/entity_detail_create_note_item_content_height" android:layout_marginLeft="5.0dip" android:text="@string/create_note" style="@style/NormalTitleText" />
+    </LinearLayout>
+    <View android:layout_marginBottom="0.0dip" style="@style/LightGridItemLine" />
+</LinearLayout>

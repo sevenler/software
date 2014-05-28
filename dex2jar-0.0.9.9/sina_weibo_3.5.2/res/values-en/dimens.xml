@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="market_download_indicator_width">90.0dip</dimen>
+    <dimen name="market_app_list_button_width">70.0dip</dimen>
+    <dimen name="market_list_action_layout_width">52.0dip</dimen>
+    <dimen name="market_list_circle_button_text_size">10.0sp</dimen>
+</resources>

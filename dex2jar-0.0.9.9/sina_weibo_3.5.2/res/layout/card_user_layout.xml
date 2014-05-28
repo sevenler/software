@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/contacts_follow_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lyPortrait" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_title_padding_left" android:layout_marginTop="@dimen/card_title_padding_top" android:layout_marginRight="@dimen/card_user_portrait_padding_left">
+        <ImageView android:id="@id/ivPortrait" android:visibility="visible" style="@style/small_portrait" />
+        <ImageView android:id="@id/ivPortraitRound" android:saveEnabled="true" android:layout_width="@dimen/small_portrait_width" android:layout_height="@dimen/small_portrait_width" android:src="@drawable/portrait_round_small" android:scaleType="fitXY" />
+        <ImageView android:id="@id/ivPortraitV" android:src="@drawable/portrait_v" style="@style/small_portrait_mask" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/lyPortrait" android:layout_centerVertical="true">
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/tvNick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nick" android:singleLine="true" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/tvDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="" android:singleLine="true" android:layout_below="@id/tvNick" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/ivCrown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/v" android:layout_toRightOf="@id/tvNick" />
+    </RelativeLayout>
+</RelativeLayout>

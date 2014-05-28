@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list apk:oneshot="false"
+  xmlns:apk="http://schemas.android.com/apk/res/android">
+    <item apk:duration="100" apk:drawable="@drawable/contacts_find_shaking_01" />
+    <item apk:duration="100" apk:drawable="@drawable/contacts_find_shaking_02" />
+    <item apk:duration="100" apk:drawable="@drawable/contacts_find_shaking_03" />
+    <item apk:duration="500" apk:drawable="@drawable/contacts_find_shaking_04" />
+    <item apk:duration="500" apk:drawable="@drawable/contacts_find_shaking_05" />
+    <item apk:duration="500" apk:drawable="@drawable/contacts_find_shaking_06" />
+</animation-list>

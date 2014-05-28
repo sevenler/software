@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/detail_weibo_mid_tab_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/detail_middletab_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/statusdetail_cell_sepatator" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/detail_forwardtab_ly" android:paddingLeft="10.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/detail_middletab_count_text" android:id="@id/tv_retweet_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="95.0dip" android:text="" android:singleLine="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/retweet_bottom_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/statusdetail_segmented_bottom_arrow" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/segment_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/statusdetail_segmented_text_sepatator" android:scaleType="fitXY" android:layout_toRightOf="@id/detail_forwardtab_ly" android:layout_centerVertical="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/detail_comment_ly" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/segment_view">
+        <TextView android:textSize="16.0sp" android:textColor="@color/detail_middletab_count_text" android:id="@id/tv_comment_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="95.0dip" android:text="" android:singleLine="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/comment_bottom_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/statusdetail_segmented_bottom_arrow" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/detail_express_attitude_ly" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+        <LinearLayout android:id="@id/ly_btn" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="5.0dip">
+            <LinearLayout android:id="@id/ll_like_icon" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/iv_like_icon" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/icon_like_detail" android:scaleType="center" />
+                <ImageView android:id="@id/iv_separate" android:background="@drawable/detail_unlike_segment" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ffa4a4a4" android:gravity="center" android:id="@id/tv_show_like_count" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="56.0dip" android:minWidth="40.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/liked_bottom_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/statusdetail_segmented_bottom_arrow" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

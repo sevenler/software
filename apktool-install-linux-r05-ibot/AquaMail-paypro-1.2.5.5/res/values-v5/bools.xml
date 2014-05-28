@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="aquamail_message_view_zoom_default">true</bool>
+    <bool name="list_widget_20_1_4_enabled">false</bool>
+    <bool name="list_widget_hc_enabled">false</bool>
+    <bool name="aquamail_ui_bidi_text_enabled_default">false</bool>
+    <bool name="aquamail_ui_mediator_two_pane_default">false</bool>
+    <bool name="aquamail_ui_prefsShowMoreFolders_default">false</bool>
+</resources>

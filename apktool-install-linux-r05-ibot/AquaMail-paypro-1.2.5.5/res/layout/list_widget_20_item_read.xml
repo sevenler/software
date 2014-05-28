@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_widget_item_root" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LW.Item.Root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/list_widget_item_when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_alignBaseline="@id/list_widget_item_1" android:layout_alignParentRight="true" style="@style/LW.Item.When" />
+    <FrameLayout android:id="@id/list_widget_item_color_indicator" android:visibility="gone" android:layout_width="@dimen/list_widget_indicator_width" android:layout_height="@dimen/list_widget_indicator_height" android:layout_alignParentRight="true" />
+    <TextView android:id="@id/list_widget_item_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/list_widget_item_when" style="@style/LW.Item.Line1" />
+    <TextView android:id="@id/list_widget_item_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/list_widget_item_1" style="@style/LW.Item.Line2" />
+    <FrameLayout android:background="#80808080" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="2.0dip" android:layout_below="@id/list_widget_item_2" />
+</RelativeLayout>

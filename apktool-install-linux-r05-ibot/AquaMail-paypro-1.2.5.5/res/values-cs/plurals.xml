@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_message_known">
+        <item quantity="other">%d zpráv bude trvale odstraněno.</item>
+        <item quantity="one">Zpráva bude trvale odstraněna.</item>
+    </plurals>
+    <plurals name="confirm_move_deleted_message_known">
+        <item quantity="other">%d zpráv bude přesunuto do složky [ Odstraněné ].</item>
+        <item quantity="one">Jedna zpráva bude přesunuta do složky [ Odstraněné ].</item>
+        <item quantity="few">%d zprávy budou přesunuty do složky [ Odstraněné ].</item>
+    </plurals>
+    <plurals name="message_list_drag_title">
+        <item quantity="other">Přesunout %d zpráv</item>
+        <item quantity="one">Přesunout jednu zprávu</item>
+    </plurals>
+    <plurals name="message_list_menu_title">
+        <item quantity="other">%d zpráv</item>
+        <item quantity="one">Jedna zpráva</item>
+    </plurals>
+    <plurals name="unread_messages_message">
+        <item quantity="other">%1$d nepřečtených zpráv</item>
+        <item quantity="one">%1$d nepřečtená zpráva</item>
+    </plurals>
+    <plurals name="unread_messages_smart_ticker">
+        <item quantity="other">%1$d nepřečtených zpráv v Chytré schránce</item>
+        <item quantity="one">%1$d nepřečtená zpráva v Chytré schránce</item>
+    </plurals>
+    <plurals name="unread_messages_ticker">
+        <item quantity="other">%1$d nepřečtených zpráv v %2$s</item>
+        <item quantity="one">%1$d nepřečtená zpráva v %2$s</item>
+    </plurals>
+</resources>

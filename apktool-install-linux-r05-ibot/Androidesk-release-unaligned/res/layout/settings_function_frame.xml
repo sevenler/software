@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/box_linearlayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/settings_wallpaperAutoChange" style="@style/box_top">
+        <ImageView android:src="@drawable/auto" android:contentDescription="@string/settings_wallpaperAutoChange" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/settings_wallpaperAutoChange" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+    <View style="@style/shape_line" />
+    <LinearLayout android:id="@id/settings_wallpaperOneClick" style="@style/box_medium">
+        <ImageView android:src="@drawable/oneclick" android:contentDescription="@string/settings_wallpaperOneClick" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/settings_wallpaperOneClick" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+    <View style="@style/shape_line" />
+    <LinearLayout android:id="@id/settings_photo_wallpaper" style="@style/box_medium">
+        <ImageView android:src="@drawable/camera" android:contentDescription="@string/app_name" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/photo_wallpaer" android:layout_weight="1.0" style="@style/box_text" />
+        <LinearLayout android:id="@id/tip_new" android:layout_width="40.0dip" android:layout_height="17.0dip" android:layout_marginRight="6.0dip" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+    <View style="@style/shape_line" />
+    <LinearLayout android:id="@id/settings_widgetGuide" style="@style/box_medium">
+        <ImageView android:src="@drawable/guide_user" android:contentDescription="@string/settings_wallpaperOneClick" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/widget_guide" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+    <View style="@style/shape_line" />
+    <LinearLayout android:id="@id/settings_pushSetting" style="@style/box_bottom">
+        <ImageView android:src="@drawable/ic_fly" android:contentDescription="@string/settings_wallpaperOneClick" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/push_setting_tile" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+</LinearLayout>

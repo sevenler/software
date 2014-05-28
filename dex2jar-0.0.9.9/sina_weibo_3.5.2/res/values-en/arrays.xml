@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="market_detail_more_items">
+        <item>Back to home</item>
+        <item>Reblog to Weibo</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="market_share_weibo_contents">
+        <item>%s,it\'s so cute~</item>
+        <item>%s,deeply recommend</item>
+        <item>Fun,without hesitate~</item>
+        <item>“%s”is good~</item>
+        <item>“%s”awesome!</item>
+    </string-array>
+    <string-array name="market_report_item">
+        <item>Unalbe to download</item>
+        <item>Unable to install</item>
+        <item>Unable to start touse</item>
+        <item>Old dition need to update</item>
+        <item>Malicious fees deduction</item>
+        <item>Carry virus</item>
+    </string-array>
+</resources>

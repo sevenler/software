@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/account_setup_inner_padding" android:paddingRight="@dimen/account_setup_inner_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_list_rename_dialog_account_name_label" />
+        <EditText android:id="@id/account_list_rename_dialog_account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:layout_marginTop="@dimen/account_setup_edit_spacing" android:inputType="text" />
+        <TextView android:textAppearance="?android:textAppearance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_list_rename_dialog_user_name_label" />
+        <EditText android:id="@id/account_list_rename_dialog_user_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:layout_marginTop="@dimen/account_setup_edit_spacing" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/group_checked_container" android:background="?bb_actionBarItemBackground" android:layout_width="72.0dip" android:layout_height="48.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <CheckBox android:layout_gravity="center" android:id="@id/address_checked" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="48.0dip" android:button="?messageListCheckmarkSelector" />
+    </FrameLayout>
+    <TextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/group_name" android:paddingLeft="?android:expandableListPreferredChildPaddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/group_checked_container" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/ssoLvAccountManager" android:background="@drawable/login_management_background" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:listSelector="@drawable/message_opt_bg" android:drawSelectorOnTop="false" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@drawable/line" android:dividerHeight="2.0dip" android:fastScrollEnabled="false" android:footerDividersEnabled="false" />
+    <include layout="@layout/vw_accountmanager_sso_btn" />
+</LinearLayout>

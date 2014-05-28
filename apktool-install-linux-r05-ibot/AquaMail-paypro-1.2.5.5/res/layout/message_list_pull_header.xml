@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?ribbonBackgroundBottomEdge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:layout_gravity="center" android:id="@id/pull_to_refresh_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_list_pull_pull_to_refresh" android:singleLine="true" />
+    <ProgressBar android:layout_gravity="fill_horizontal|top|center" android:id="@id/pull_to_refresh_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="40" style="@style/PullProgressBar" />
+</FrameLayout>

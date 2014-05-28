@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="highlight_pressed_1">#ffffc700</color>
+    <color name="highlight_pressed_2">#ffffa600</color>
+    <color name="highlight_selected_1">#ffff9200</color>
+    <color name="highlight_selected_2">#ffff6900</color>
+    <color name="grey_gradient_1_dark">#ff404040</color>
+    <color name="grey_gradient_1_light">#ffd0d0d0</color>
+    <color name="grey_gradient_2_dark">#ff000000</color>
+    <color name="grey_gradient_2_light">#ffffffff</color>
+    <color name="highlight_disabled_1">#a0a9a9a9</color>
+    <color name="highlight_disabled_2">#a0a9a9a9</color>
+    <color name="list_widget_hc_divider">#60808080</color>
+    <color name="list_widget_read_background_color_metal">#ff404040</color>
+    <color name="list_widget_read_background_color_porcelain">#ffe4e0e4</color>
+    <color name="list_widget_read_text_color_frameless">#ffd0d0d0</color>
+    <color name="list_widget_read_text_color_glass">#ffd0d0d0</color>
+    <color name="list_widget_read_text_color_metal">#ffd0d0d0</color>
+    <color name="list_widget_read_text_color_porcelain">#ff303030</color>
+    <color name="list_widget_unread_background_color_metal">#ff202020</color>
+    <color name="list_widget_unread_text_color_frameless">#ffffffff</color>
+    <color name="list_widget_unread_text_color_glass">#ffffffff</color>
+    <color name="list_widget_unread_text_color_metal">#ffffffff</color>
+    <color name="list_widget_unread_text_color_porcelain">#ff000000</color>
+    <color name="text_error">#ffc00000</color>
+    <color name="theme_dark_actionbar_background_split">#ff282828</color>
+    <color name="theme_dark_color_accent">#ff080808</color>
+    <color name="theme_dark_color_blue_darker">#ff3d668f</color>
+    <color name="theme_dark_color_blue_lighter">#ff597fa6</color>
+    <color name="theme_dark_color_divider">#ffa8a8a8</color>
+    <color name="theme_dark_color_ribbon">#ff181818</color>
+    <color name="theme_dark_message_list_checked">#ff243342</color>
+    <item type="color" name="theme_dark_message_list_group_header_edge">@color/bb_holo_blue_focused</item>
+    <color name="theme_dark_message_list_group_header_fill">#ff52667a</color>
+    <color name="theme_dark_message_list_read_background">#ff404040</color>
+    <color name="theme_light_actionbar_background_split">#ffe8e8e8</color>
+    <color name="theme_light_color_accent">#fff8f8f8</color>
+    <color name="theme_light_color_blue_darker">#ff9fbfdf</color>
+    <color name="theme_light_color_blue_lighter">#ffadcceb</color>
+    <color name="theme_light_color_divider">#ff898989</color>
+    <color name="theme_light_color_ribbon">#fff0f0f0</color>
+    <color name="theme_light_message_list_checked">#ffbcd9f5</color>
+    <item type="color" name="theme_light_message_list_group_header_edge">@color/bb_holo_blue_pressed</item>
+    <color name="theme_light_message_list_group_header_fill">#ffbdccdb</color>
+    <color name="theme_light_message_list_read_background">#ffd4d4d4</color>
+    <color name="widget_count_text_color_frameless">#ffffffff</color>
+    <color name="widget_count_text_color_glass">#ffffffff</color>
+    <color name="widget_count_text_color_metal">#ffffffff</color>
+    <color name="widget_count_text_color_porcelain">#ff000000</color>
+    <color name="widget_icon_checked">#ff80b0e0</color>
+    <item type="color" name="widget_icon_focused_1">@color/highlight_selected_1</item>
+    <item type="color" name="widget_icon_focused_2">@color/highlight_selected_2</item>
+    <item type="color" name="widget_icon_pressed_1">@color/highlight_pressed_1</item>
+    <item type="color" name="widget_icon_pressed_2">@color/highlight_pressed_2</item>
+    <color name="widget_label_text_color_frameless">#ffffffff</color>
+    <color name="widget_label_text_color_glass">#ffffffff</color>
+    <color name="widget_label_text_color_metal">#ffffffff</color>
+    <color name="widget_label_text_color_porcelain">#ff000000</color>
+    <color name="widget_unread_text_color_frameless">#ffff9900</color>
+    <color name="widget_unread_text_color_glass">#ffff9900</color>
+    <color name="widget_unread_text_color_metal">#ffff9900</color>
+    <color name="widget_unread_text_color_porcelain">#ffff9900</color>
+</resources>

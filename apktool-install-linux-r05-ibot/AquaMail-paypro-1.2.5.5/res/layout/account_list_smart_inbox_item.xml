@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.kman.AquaMail.view.AccountListSmartItemLayout android:orientation="horizontal" android:background="?messageListBackgroundUnread" android:paddingLeft="?android:expandableListPreferredChildPaddingLeft" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/account_list_textsize_large_medium" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/folder_name" android:layout_width="0.0dip" android:layout_height="@dimen/account_list_account_size_medium" android:layout_marginRight="@dimen/account_list_item_spacing_horz" android:text="@string/account_list_smart_inbox" android:singleLine="true" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/account_list_textsize_large_medium" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/folder_msg_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_list_item_spacing_horz" android:layout_marginRight="@dimen/account_list_item_spacing_horz" />
+</org.kman.AquaMail.view.AccountListSmartItemLayout>

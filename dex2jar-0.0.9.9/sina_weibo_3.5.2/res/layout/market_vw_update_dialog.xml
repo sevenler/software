@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/market_white" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_update_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/market_download_item_height">
+        <ImageView android:id="@id/update_dialog_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="10.0dip" android:minHeight="@dimen/market_download_item_height" android:layout_toRightOf="@id/update_dialog_image" android:layout_centerVertical="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/market_default_download_title" android:ellipsize="end" android:id="@id/update_dialog_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/market_default_download_version" android:id="@id/update_dialog_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/update_dialog_name" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/market_default_download_version" android:gravity="center_vertical" android:id="@id/update_dialog_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:background="@color/market_download_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="300.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/market_default_download_title" android:ellipsize="end" android:id="@id/update_dialog_update_detail" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/update_dialog_update" android:background="@drawable/market_selector_normal_btn" android:layout_width="0.0dip" android:layout_height="@dimen/market_download_btn_height" android:text="@string/market_uplate" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/update_dialog_ignore" android:background="@drawable/market_selector_normal_btn" android:layout_width="0.0dip" android:layout_height="@dimen/market_download_btn_height" android:text="@string/market_manage_tools_ignore" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/update_dialog_cancle" android:background="@drawable/market_selector_normal_btn" android:layout_width="0.0dip" android:layout_height="@dimen/market_download_btn_height" android:text="@string/market_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

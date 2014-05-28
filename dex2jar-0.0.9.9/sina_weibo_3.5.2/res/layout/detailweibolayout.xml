@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:weibo="http://schemas.android.com/apk/res/com.sina.weibo">
+    <LinearLayout android:orientation="vertical" android:id="@id/tweet_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/tweet_list" android:fadingEdge="none" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@null" android:headerDividersEnabled="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/showad" android:visibility="gone" android:layout_width="@dimen/detail_ad_width" android:layout_height="@dimen/detail_ad_height" android:layout_marginRight="2.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tweet_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height" android:layout_alignParentBottom="true">
+        <com.sina.weibo.view.TabView android:id="@id/tvReload" android:contentDescription="@string/main_reload" weibo:textSize="@dimen/bottom_tab_font_size" weibo:drawablePadding="@dimen/bottom_tab_padding_drawable" weibo:text="@string/main_reload" style="@style/detail_btn_left" />
+        <com.sina.weibo.view.TabView android:id="@id/tvComment" android:contentDescription="@string/comment" weibo:textSize="@dimen/bottom_tab_font_size" weibo:drawablePadding="@dimen/bottom_tab_padding_drawable" weibo:text="@string/comment" style="@style/detail_btn_middle" />
+        <com.sina.weibo.view.TabView android:id="@id/tvForward" android:contentDescription="@string/forward" weibo:textSize="@dimen/bottom_tab_font_size" weibo:drawablePadding="@dimen/bottom_tab_padding_drawable" weibo:text="@string/forward" style="@style/detail_btn_middle" />
+        <com.sina.weibo.view.TabView android:id="@id/tvFav" android:contentDescription="@string/itemmenu_bookmark" weibo:textSize="@dimen/bottom_tab_font_size" weibo:drawablePadding="@dimen/bottom_tab_padding_drawable" weibo:text="@string/itemmenu_bookmark" style="@style/detail_btn_middle" />
+        <com.sina.weibo.view.TabView android:id="@id/tvMore" android:contentDescription="@string/more" weibo:textSize="@dimen/bottom_tab_font_size" weibo:drawablePadding="@dimen/bottom_tab_padding_drawable" weibo:text="@string/more" style="@style/detail_btn_right" />
+    </LinearLayout>
+    <com.sina.weibo.view.DetailWeiboMiddleTab android:id="@id/middleTab" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

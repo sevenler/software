@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/square_pic_width" android:layout_height="@dimen/square_pic_width">
+        <ImageView android:gravity="center_horizontal" android:id="@id/iv_square_icon" android:background="@drawable/square_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/contacts_followitem_btn_textsize" android:textColor="@android:color/white" android:id="@id/tvSquareItemUnReadNum" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvItemName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

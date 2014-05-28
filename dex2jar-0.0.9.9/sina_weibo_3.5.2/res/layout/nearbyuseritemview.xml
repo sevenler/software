@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lyItemPortrait" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip">
+        <ImageView android:id="@id/ivItemPortrait" android:visibility="visible" style="@style/small_portrait" />
+        <ImageView android:id="@id/ivItemPortraitRound" android:saveEnabled="true" android:layout_width="@dimen/small_portrait_width" android:layout_height="@dimen/small_portrait_width" android:src="@drawable/portrait_round_small" android:scaleType="fitXY" />
+        <ImageView android:id="@id/ivItemPortraitV" style="@style/small_portrait_mask" />
+    </FrameLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/getfriend_contacts_invite_text" android:gravity="center" android:id="@id/ivAttendBtn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0sp" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0sp" android:src="@drawable/userinfo_relationship_invitebutton" android:text="@string/user_delattention" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/linear_layout_up" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginRight="35.0dip" android:layout_toRightOf="@id/lyItemPortrait">
+        <TextView android:textSize="16.0sp" android:typeface="normal" android:textColor="#ff323232" android:ellipsize="middle" android:id="@id/tvItemName" android:paddingRight="@dimen/nick_name_padding_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/mblogCrown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="right" android:id="@id/tvItemNum" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/ivRelation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.669983dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/ivAttendBtn" android:layout_alignParentRight="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff8f939a" android:id="@id/tvItemRemark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/ivAttendBtn" android:layout_toRightOf="@id/lyItemPortrait" android:layout_below="@id/linear_layout_up" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear_layout_down" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_toLeftOf="@id/ivAttendBtn" android:layout_toRightOf="@id/lyItemPortrait" android:layout_below="@id/linear_layout_up">
+        <ImageView android:id="@id/ivGental" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/icon_male" />
+        <TextView android:textSize="14.0sp" android:typeface="monospace" android:id="@id/tvItemDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="14.0sp" android:typeface="monospace" android:id="@id/tvItemUpdateTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:typeface="monospace" android:id="@id/tvItemContent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginRight="8.669983dip" android:singleLine="true" android:layout_toLeftOf="@id/ivAttendBtn" android:layout_toRightOf="@id/lyItemPortrait" android:layout_below="@id/linear_layout_down" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/account_list_menu_folder_syncs_with" android:visible="false" />
+    <item android:id="@id/account_list_menu_folder_refresh" android:title="@string/account_list_menu_folder_refresh" />
+    <item android:id="@id/account_list_menu_folder_all_read" android:title="@string/account_list_menu_folder_all_read" />
+    <item android:id="@id/account_list_menu_folder_purge_deleted" android:title="@string/account_list_menu_purge_deleted" />
+    <item android:id="@id/account_list_menu_folder_clear_recent" android:title="@string/account_list_menu_folder_clear_recent" />
+    <item android:id="@id/account_list_menu_folder_clear_recent_all" android:title="@string/account_list_menu_folder_clear_recent_all" />
+</menu>

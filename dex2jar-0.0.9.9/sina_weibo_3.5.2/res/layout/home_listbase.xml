@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/searchbar" android:paddingTop="@dimen/searchbar_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/lytSearch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:orientation="horizontal" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/searchbar_padding" android:layout_marginRight="@dimen/searchbar_padding"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <AutoCompleteTextView android:id="@id/AutoCompleteTextView01" android:background="@drawable/search_edittext_bg" android:paddingLeft="@dimen/searchbar_paddingleft" android:paddingRight="@dimen/searchbar_paddingright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:completionThreshold="1" android:imeOptions="actionDone" />
+                <Button android:id="@id/btSearch" android:background="@drawable/search_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/AutoCompleteTextView01" android:layout_alignRight="@id/AutoCompleteTextView01" android:layout_centerVertical="true" />
+                <Button android:id="@id/btSearchClear" android:background="@drawable/search_button_clear" android:paddingTop="@dimen/searchbar_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/searchbar_marginright" android:layout_alignBaseline="@id/AutoCompleteTextView01" android:layout_alignRight="@id/AutoCompleteTextView01" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/searchbar_padding" android:paddingRight="@dimen/searchbar_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <RadioGroup android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/main_radio" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="@dimen/searchbar_textsize" android:id="@id/rbSearchWeibo" android:tag="radio_button0" android:text="@string/search_weibo" android:drawableLeft="@drawable/search_radio_1" style="@style/search_radiobutton_weibo" />
+                    <RadioButton android:textSize="@dimen/searchbar_textsize" android:id="@id/rbSearchUser" android:tag="radio_button1" android:text="@string/search_user" android:drawableLeft="@drawable/search_radio_2" style="@style/search_radiobutton_user" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_content" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sina.weibo.view.PullDownView android:id="@id/pd_blog_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/lvUser" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:drawSelectorOnTop="false" android:scrollingCache="false" android:layout_weight="0.0" />
+            </com.sina.weibo.view.PullDownView>
+            <com.sina.weibo.view.TopToastView android:id="@id/ttvSendFailed" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/near_user_toast" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/near_user_count" android:background="@drawable/near_user_toastbg" android:paddingLeft="16.0dip" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="dkklajfkjakfd" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/near_user_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad_close_icon" />
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/guide_ad_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="41.0dip">
+        <ImageView android:id="@id/guide_ad_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/guide_ad_title_textsize" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/guide_ad_title" android:paddingLeft="6.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_toLeftOf="@id/guide_ad_close" android:layout_toRightOf="@id/guide_ad_icon" />
+        <ImageView android:id="@id/guide_ad_close" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ad_close_icon" android:scaleType="center" android:layout_alignTop="@id/guide_ad_title" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</FrameLayout>

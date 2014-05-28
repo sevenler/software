@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/widget_frame_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_top_level" android:background="@drawable/widget_bg_new_glass" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/app_icon_my_own_light" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffa0a0a0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:text="@string/widget_loading" />
+    </LinearLayout>
+</FrameLayout>

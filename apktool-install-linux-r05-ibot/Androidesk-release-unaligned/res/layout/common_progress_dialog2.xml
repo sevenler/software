@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:background="@drawable/setdialogtitle_bg1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/setdialogcontent_bg" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip">
+        <RelativeLayout android:gravity="top" android:orientation="horizontal" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textColor="#ff4e4e4e" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toast_selecting" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff767676" android:gravity="center_horizontal" android:id="@id/progressValue" android:background="@drawable/yellow_circle" android:layout_width="45.0dip" android:layout_height="27.0dip" android:text="80%" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip">
+            <ProgressBar android:id="@id/progressBar" android:background="@drawable/custom_progressbar_bg" android:padding="2.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="10.0dip" android:progressDrawable="@drawable/custom_progressbar" style="?android:attr/progressBarStyleHorizontal" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/cancel_relativelayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/black" android:id="@id/id_dialog_cancel" android:background="@drawable/select_button_live" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="取消" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

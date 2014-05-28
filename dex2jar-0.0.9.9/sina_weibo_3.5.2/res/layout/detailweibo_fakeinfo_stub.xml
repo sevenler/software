@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/ly_fake_detail" android:background="@drawable/statusdetai_falseinfo_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fake_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/attitude_falseinfo_icon" android:scaleType="fitXY" />
+    <ImageView android:id="@id/fake_info_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/triangle" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/fake_info_text" android:id="@id/tv_fake_detail" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/fake_info_arrow" android:layout_toRightOf="@id/fake_info_icon" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/widget_image_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_config_general_padding" android:layout_marginBottom="@dimen/widget_config_general_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.kman.AquaMail.widget.WidgetImageButton android:id="@id/widget_image_1" android:background="@drawable/widget_icon_selector" android:padding="@dimen/widget_config_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_icon_1z" />
+    <org.kman.AquaMail.widget.WidgetImageButton android:id="@id/widget_image_2" android:background="@drawable/widget_icon_selector" android:padding="@dimen/widget_config_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_icon_2z" />
+    <org.kman.AquaMail.widget.WidgetImageButton android:id="@id/widget_image_3" android:background="@drawable/widget_icon_selector" android:padding="@dimen/widget_config_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_icon_3z" />
+    <org.kman.AquaMail.widget.WidgetImageButton android:id="@id/widget_image_4" android:background="@drawable/widget_icon_selector" android:padding="@dimen/widget_config_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_icon_4z" />
+    <org.kman.AquaMail.widget.WidgetImageButton android:id="@id/widget_image_5" android:background="@drawable/widget_icon_selector" android:padding="@dimen/widget_config_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_icon_5z" />
+</LinearLayout>

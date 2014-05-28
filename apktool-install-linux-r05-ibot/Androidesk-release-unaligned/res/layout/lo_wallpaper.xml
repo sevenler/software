@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/top_bar_layout">
+        <ImageView android:id="@id/imgpushback" style="@style/top_bar_back" />
+        <Button android:id="@id/cancel" android:visibility="gone" style="@style/top_bar_cancel" />
+        <TextView android:id="@id/title" android:text="@string/settings_wallpaper" style="@style/top_bar_title" />
+        <Button android:textSize="12.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="right" android:id="@id/editbutton" android:padding="0.0dip" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/li_edit_title" style="@style/top_bar_manage" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" />
+    <View android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" style="@style/shape_line" />
+    <com.androidesk.album.GridViewSpecial android:id="@id/grid" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="#ffffffff" android:layout_weight="1.0" />
+    <include android:id="@id/select" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/select_all_style" />
+</LinearLayout>

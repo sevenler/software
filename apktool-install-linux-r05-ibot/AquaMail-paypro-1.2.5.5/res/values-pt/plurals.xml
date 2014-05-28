@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_message_known">
+        <item quantity="other">%d mensagens serão eliminadas permanentemente.</item>
+        <item quantity="one">Uma mensagem será eliminada permanentemente.</item>
+    </plurals>
+    <plurals name="confirm_move_deleted_message_known">
+        <item quantity="other">%d mensagens serão movidas para a pasta [ Eliminadas ].</item>
+        <item quantity="one">Uma mensagem será movida para a pasta [ Eliminadas ].</item>
+    </plurals>
+    <plurals name="message_list_drag_title">
+        <item quantity="other">Move %d mensagens</item>
+        <item quantity="one">Move uma mensagem</item>
+    </plurals>
+    <plurals name="message_list_menu_title">
+        <item quantity="other">%d mensagens</item>
+        <item quantity="one">Uma mensagem</item>
+    </plurals>
+    <plurals name="unread_messages_message">
+        <item quantity="other">%1$d mensagens não lidas</item>
+        <item quantity="one">%1$d mensagem não lida</item>
+    </plurals>
+    <plurals name="unread_messages_smart_ticker">
+        <item quantity="other">%1$d mensagens não lidas em Caixa de Entrada Inteligente</item>
+        <item quantity="one">%1$d mensagem não lida em Caixa de Entrada Inteligente</item>
+    </plurals>
+    <plurals name="unread_messages_ticker">
+        <item quantity="other">%1$d mensagens não lidas em %2$s</item>
+        <item quantity="one">%1$d mensagem não lida em %2$s</item>
+    </plurals>
+</resources>

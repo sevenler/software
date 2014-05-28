@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/login_form" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" style="@style/LoginFormContainer">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip">
+                <com.guoku.ui.widget.GKNetworkImageView android:id="@id/cover" android:layout_width="60.0dip" android:layout_height="60.0dip" style="@style/imageStyle" />
+                <TextView android:gravity="center_vertical" android:id="@id/cover_title" android:layout_width="fill_parent" android:layout_height="40.0dip" android:singleLine="true" style="@style/DiscriptionText" />
+            </LinearLayout>
+            <View android:layout_marginTop="4.0dip" android:layout_marginBottom="0.0dip" style="@style/GridItemLine" />
+            <TextView android:gravity="center_vertical" android:id="@id/status_message" android:layout_width="fill_parent" android:layout_height="40.0dip" android:singleLine="true" style="@style/DiscriptionText" />
+            <EditText android:id="@id/nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/prompt_nickname" android:maxLines="1" android:singleLine="true" android:inputType="textCapCharacters" style="@style/TextColorHint" />
+            <com.guoku.ui.widget.GKAutoCompleteTextView android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/prompt_email" android:maxLines="1" android:singleLine="true" android:inputType="textEmailAddress" style="@style/TextColorHint" />
+            <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/prompt_password" android:maxLines="1" android:singleLine="true" android:inputType="textPassword" android:imeOptions="normal|actionUnspecified" android:imeActionLabel="@string/action_sign_in_short" android:imeActionId="@id/login" style="@style/TextColorHint" />
+            <Button android:id="@id/submit" android:layout_width="fill_parent" android:layout_marginTop="20.0dip" android:text="@string/action_register" style="@style/GreenButton" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/base_status_layout" />
+</merge>

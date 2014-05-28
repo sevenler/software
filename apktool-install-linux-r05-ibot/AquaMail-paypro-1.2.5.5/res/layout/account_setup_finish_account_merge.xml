@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_save_account_as" />
+    <EditText android:id="@id/account_setup_finish_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_setup_indent_left" android:layout_marginTop="@dimen/account_setup_edit_spacing" android:inputType="textCapWords" />
+    <TextView android:textAppearance="?android:textAppearance" android:id="@id/account_setup_finish_warnings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/account_setup_label_spacing" />
+    <CheckBox android:id="@id/account_setup_finish_options" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/account_setup_label_spacing" android:checked="true" android:text="@string/account_setup_save_start_options" />
+    <TextView android:textAppearance="?android:textAppearance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/account_setup_label_spacing" android:text="@string/account_setup_add_another" />
+</LinearLayout>

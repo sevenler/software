@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lyItemPortrait" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.3299866dip" android:layout_marginTop="5.0dip" android:layout_marginRight="3.3299866dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/item_portrait" android:padding="0.0dip" android:saveEnabled="true" android:scaleType="fitXY" android:adjustViewBounds="false" style="@style/small_portrait" />
+        <ImageView android:id="@id/item_portraitRound" android:saveEnabled="true" android:layout_width="@dimen/small_portrait_width" android:layout_height="@dimen/small_portrait_width" android:src="@drawable/portrait_round_small" android:scaleType="fitXY" />
+        <ImageView android:id="@id/item_portrait_v" style="@style/small_portrait_mask" />
+    </FrameLayout>
+    <TextView android:textColor="#ff000000" android:ellipsize="start" android:layout_gravity="center_horizontal" android:id="@id/tv_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

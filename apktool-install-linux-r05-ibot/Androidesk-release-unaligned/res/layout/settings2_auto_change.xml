@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/top_bar_layout">
+        <ImageView android:id="@id/imgpushback" style="@style/top_bar_back" />
+        <TextView android:text="@string/settings_wallpaperAutoChange" style="@style/top_bar_title" />
+    </FrameLayout>
+    <View style="@style/shape_line" />
+    <ScrollView android:scrollbars="none" style="@style/box_scrollayout">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <LinearLayout android:id="@id/settings2_autoChange" android:background="@drawable/select_single_box_bg" android:baselineAligned="false" style="@style/box_linearlayout2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:text="@string/settings2_is_auto_change" android:singleLine="true" style="@style/box_text" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/autoChange_tip" style="@style/box_text_tip" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <CheckBox android:id="@id/checkBox_autoChange" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:button="@drawable/select_checkbox" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/select_single_box_bg" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/settings_autoChange_Custom" android:background="@drawable/select_top_box" android:layout_width="fill_parent" android:layout_height="58.0dip" style="@style/box_linearlayout2">
+                    <TextView android:id="@id/text_autoChange_Custom" android:layout_width="0.0dip" android:text="@string/settings2_auto_change_custom" android:layout_weight="1.0" style="@style/box_text" />
+                    <CheckBox android:id="@id/checkBox_autoChange_Custom" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:button="@drawable/select_checkbox" />
+                </LinearLayout>
+                <View style="@style/shape_line" />
+                <LinearLayout android:gravity="center_vertical" android:id="@id/settings_autoChange_Custom_from" android:background="@drawable/select_bottom_box" android:layout_height="58.0dip" style="@style/box_bottom">
+                    <TextView android:id="@id/text_autoChange_op_import" android:layout_width="0.0dip" android:text="@string/settings2_auto_change_op_import" android:layout_weight="1.0" style="@style/box_text" />
+                    <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/select_single_box_bg" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <LinearLayout android:id="@id/settings2_frequency" android:background="@drawable/select_top_box" android:baselineAligned="false" style="@style/box_linearlayout2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/auto_change_frequency_box" android:text="@string/settings2_wallpaper_frequency_change" android:singleLine="true" style="@style/box_text" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/auto_change_frequency_tip" android:text="@string/settings2_wallpaper_frequency_change_tip" style="@style/box_text_tip" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <CheckBox android:id="@id/frequency_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:button="@drawable/select_spinner_button" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View style="@style/shape_line" />
+                <LinearLayout android:id="@id/auto_change_night_mode" android:background="@drawable/select_bottom_box" android:baselineAligned="false" style="@style/box_linearlayout2">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/box_text_box" android:text="@string/settings2_nightMode" android:singleLine="true" style="@style/box_text" />
+                        <TextView android:textAppearance="?android:textAppearanceSmall" android:text="@string/settings2_nightMode_tip" style="@style/box_text_tip" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <CheckBox android:id="@id/checkBox_nightMode" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:button="@drawable/select_checkbox" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/auto_change_faild" android:layout_width="wrap_content" android:layout_height="40.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/auto_change_tip" />
+                <TextView android:textSize="15.0dip" android:textColor="#ff125074" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/setting2_auto_faild_tip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/auto_change_faild_line" android:background="@drawable/auto_change_tip_msg" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="#ff3f3f3f" android:id="@id/auto_change_faild_pw_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting2_auto_faild_msg" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

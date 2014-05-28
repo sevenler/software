@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="30.0dip" style="@style/TitleText" />
+        <TextView android:id="@id/count" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/title" style="@style/NormalTitleText" />
+    </RelativeLayout>
+    <View android:layout_height="2.0dip" android:layout_margin="0.0dip" style="@style/GridItemLine" />
+    <com.guoku.ui.widget.GKGridView android:gravity="top|center" android:id="@id/list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:numColumns="1" style="@style/SelectorListViewStyle" />
+</LinearLayout>

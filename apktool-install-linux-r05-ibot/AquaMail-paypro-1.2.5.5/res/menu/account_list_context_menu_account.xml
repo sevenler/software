@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/account_list_menu_idle_group">
+        <item android:id="@id/account_list_menu_settings" android:title="@string/account_list_menu_settings" />
+        <item android:id="@id/account_list_menu_options" android:title="@string/account_list_menu_options" />
+        <item android:id="@id/account_list_menu_aliases" android:title="@string/account_list_menu_aliases" />
+        <item android:id="@id/account_list_menu_special" android:title="@string/account_list_menu_special" />
+        <item android:id="@id/account_list_menu_rename" android:title="@string/account_list_menu_rename" />
+        <item android:id="@id/account_list_menu_delete" android:title="@string/account_list_menu_delete" />
+    </group>
+    <item android:title="@string/account_list_menu_sort_title">
+        <menu android:title="@string/account_list_menu_sort_title">
+            <item android:id="@id/account_list_menu_sort_move_up" android:title="@string/account_list_menu_sort_move_up" />
+            <item android:id="@id/account_list_menu_sort_move_down" android:title="@string/account_list_menu_sort_move_down" />
+            <item android:id="@id/account_list_menu_sort_reset" android:title="@string/account_list_menu_sort_reset" />
+        </menu>
+    </item>
+    <item android:id="@id/account_list_menu_account_color" android:title="@string/account_options_account_color" />
+    <item android:id="@id/account_list_menu_diag_message_dates" android:title="@string/account_list_menu_diag_message_dates" />
+</menu>

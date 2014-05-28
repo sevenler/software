@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:weibo="http://schemas.android.com/apk/res/com.sina.weibo">
+    <TextView android:id="@id/chat_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/messages_time_separator" android:drawableRight="@drawable/messages_time_separator" android:drawablePadding="5.0dip" style="@style/chat_time" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/message_status_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/message_status_done" />
+        <RelativeLayout android:id="@id/chatting_sending_back" android:background="@drawable/msg_sendto_done_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/message_content" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="28.0dip" style="@style/chat_content" />
+            <ImageView android:id="@id/pic_preview_iv" android:padding="5.0dip" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/map_default" android:scaleType="fitXY" android:maxWidth="@dimen/preview_pic_size" android:maxHeight="@dimen/preview_pic_size" android:minWidth="48.0dip" android:minHeight="33.0dip" android:layout_below="@id/message_content" />
+        </RelativeLayout>
+        <FrameLayout android:layout_gravity="right" android:id="@id/lyItemPortrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="9.329987dip">
+            <com.sina.weibo.view.RoundedImageView android:id="@id/portrait_iv" android:paddingLeft="1.0dip" android:saveEnabled="true" android:scaleType="fitXY" android:adjustViewBounds="false" weibo:corner_radius="@dimen/small_portrait_round_radius" weibo:round_background="true" style="@style/small_portrait_original" />
+            <ImageView android:id="@id/portrait_v_iv" style="@style/chat_portrait_mask" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ribbonBackgroundBottomEdge" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/account_list_textsize_medium_medium" android:textColor="@color/text_error" android:layout_gravity="center" android:id="@id/account_list_licensing_message" android:background="@drawable/bb_item_background_selector" android:padding="6.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:minLines="2" />
+</LinearLayout>

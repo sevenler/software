@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panel_resize_min_fs_size">100.0dip</dimen>
+    <dimen name="panel_resize_min_size">100.0dip</dimen>
+    <dimen name="panel_resize_partial_cutoff_account_list_acount">140.0dip</dimen>
+    <dimen name="panel_resize_partial_cutoff_account_list_folder">140.0dip</dimen>
+    <dimen name="panel_resize_partial_cutoff_message_list">120.0dip</dimen>
+</resources>

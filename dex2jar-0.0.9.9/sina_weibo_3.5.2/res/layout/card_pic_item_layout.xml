@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:id="@id/tv_card_pic_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="13.0dip" />
+    <LinearLayout android:id="@id/ly_pic_layout" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/card_pic_list_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/card_pic_list_margin" android:layout_below="@id/tv_card_pic_title">
+        <include android:id="@id/fr_pic1" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/page_pic_view" />
+        <include android:id="@id/fr_pic2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_pic_list_item_margin" layout="@layout/page_pic_view" />
+        <include android:id="@id/fr_pic3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_pic_list_item_margin" layout="@layout/page_pic_view" />
+        <include android:id="@id/fr_pic4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_pic_list_item_margin" layout="@layout/page_pic_view" />
+        <include android:id="@id/fr_pic5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_pic_list_item_margin" layout="@layout/page_pic_view" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ly_big_pic_layout" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/tv_card_pic_title">
+        <include android:id="@id/fr_big_pic1" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/page_big_pic_view" />
+        <include android:id="@id/fr_big_pic2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" layout="@layout/page_big_pic_view" />
+        <include android:id="@id/fr_big_pic3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" layout="@layout/page_big_pic_view" />
+        <include android:id="@id/fr_big_pic4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" layout="@layout/page_big_pic_view" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ly_book_layout" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="11.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/tv_card_pic_title">
+        <include android:id="@id/fr_book1" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/page_book_view" />
+        <include android:id="@id/fr_book2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" layout="@layout/page_book_view" />
+        <include android:id="@id/fr_book3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" layout="@layout/page_book_view" />
+        <include android:id="@id/fr_book4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" layout="@layout/page_book_view" />
+    </LinearLayout>
+</RelativeLayout>

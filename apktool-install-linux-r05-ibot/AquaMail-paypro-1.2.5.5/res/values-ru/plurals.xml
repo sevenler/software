@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_message_known">
+        <item quantity="other">%d сообщений будет удалено навсегда.</item>
+        <item quantity="one">Сообщение будет удалено навсегда.</item>
+    </plurals>
+    <plurals name="confirm_move_deleted_message_known">
+        <item quantity="other">%d сообщений будет перемещено в папку [ Удаленные ].</item>
+        <item quantity="one">Сообщение будет перемещено в папку [ Удаленные ].</item>
+    </plurals>
+    <plurals name="message_list_drag_title">
+        <item quantity="other">Переместить %d сообщений</item>
+        <item quantity="one">Переместить одно сообщение</item>
+    </plurals>
+    <plurals name="message_list_menu_title">
+        <item quantity="other">%d сообщений</item>
+        <item quantity="one">Одно сообщение</item>
+        <item quantity="two">Два сообщения</item>
+    </plurals>
+    <plurals name="unread_messages_message">
+        <item quantity="other">%1$d непрочтенных сообщений</item>
+        <item quantity="one">%1$d непрочтенное сообщение</item>
+    </plurals>
+    <plurals name="unread_messages_smart_ticker">
+        <item quantity="other">%1$d непрочтенных в Умной Папке</item>
+        <item quantity="one">%1$d непрочтенное в Умной Папке</item>
+    </plurals>
+    <plurals name="unread_messages_ticker">
+        <item quantity="other">%1$d непрочтенных в %2$s</item>
+        <item quantity="one">%1$d сообщение в %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/box_linearlayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/settings_downloadSetting" style="@style/box_top">
+        <ImageView android:src="@drawable/download" android:contentDescription="@string/app_name" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/settings_downloadSetting" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+    <View style="@style/shape_line" />
+    <LinearLayout android:id="@id/samsung_screen" android:visibility="gone" style="@style/box_medium">
+        <ImageView android:src="@drawable/setting_black" android:contentDescription="@string/preference_icon" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/settings_sanxing_setting" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+    <View android:id="@id/samsung_line" android:visibility="gone" style="@style/shape_line" />
+    <LinearLayout android:id="@id/settings_wallpaperQuality" style="@style/box_medium">
+        <ImageView android:src="@drawable/quality" android:contentDescription="@string/app_name" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/settings_wallpaperQuality" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+    <View style="@style/shape_line" />
+    <LinearLayout android:id="@id/settings_moreSetting" style="@style/box_bottom">
+        <ImageView android:src="@drawable/more" android:contentDescription="@string/app_name" style="@style/preference_icon" />
+        <TextView android:layout_width="0.0dip" android:text="@string/settings_moreSetting" android:layout_weight="1.0" style="@style/box_text" />
+        <ImageView android:contentDescription="@string/app_name" style="@style/box_arrow" />
+    </LinearLayout>
+</LinearLayout>

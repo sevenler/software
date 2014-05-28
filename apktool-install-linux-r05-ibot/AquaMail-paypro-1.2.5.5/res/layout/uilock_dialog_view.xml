@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/app_icon_my_own_light" />
+        <TextView android:textSize="@dimen/password_prompt_text_size" android:textColor="@*android:color/white" android:layout_gravity="center_vertical" android:id="@id/uilock_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uilock_enter_pin_to_unlock" android:singleLine="true" />
+    </LinearLayout>
+    <EditText android:id="@id/uilock_edit" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" />
+    <org.kman.AquaMail.lock.PasswordEntryKeyboardView android:id="@id/uilock_keyboard" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

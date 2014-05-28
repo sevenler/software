@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/group_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_group_list_bg_divider" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="@dimen/group_item_divider_height" android:layout_margin="1.0px" android:src="@drawable/group_divider" android:scaleType="center" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff343d47" android:gravity="center_vertical" android:id="@id/groupGroupItem" android:background="@drawable/group_groupitem_bg" android:paddingLeft="12.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:singleLine="true" style="@style/grouplist_item_textview" />
+</FrameLayout>

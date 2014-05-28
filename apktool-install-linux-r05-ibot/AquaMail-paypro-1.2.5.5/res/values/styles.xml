@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BogusBarHardMenuUp">
+        <item name="android:windowEnterAnimation">@anim/bb_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/bb_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="BogusBarOverflowDown">
+        <item name="android:windowEnterAnimation">@anim/bb_grow_fade_in_from_top_right</item>
+        <item name="android:windowExitAnimation">@anim/bb_shrink_fade_out_from_top_right</item>
+    </style>
+    <style name="BogusBarOverflowUp">
+        <item name="android:windowEnterAnimation">@anim/bb_grow_fade_in_from_bottom_right</item>
+        <item name="android:windowExitAnimation">@anim/bb_shrink_fade_out_from_bottom_right</item>
+    </style>
+    <style name="Theme.Locale.Dark" parent="@*android:style/Theme" />
+    <style name="Theme.Locale.Dialog" parent="@*android:style/Theme.Translucent.NoTitleBar" />
+    <style name="Theme.Locale.Light" parent="@*android:style/Theme.Light" />
+</resources>

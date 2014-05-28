@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lySelectBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/lyContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/lySelectBg">
+        <FrameLayout android:id="@id/lyShakeContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/lvShake" android:visibility="gone" android:fadingEdge="none" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:drawSelectorOnTop="false" android:scrollingCache="false" android:divider="@drawable/divider_horizontal_timeline" android:dividerHeight="1.0dip" android:layout_weight="0.0" />
+            <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/lyShakePrompt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivShakePrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@color/getfriend_selection_text_highlighted" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tvShakePrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+        <FrameLayout android:id="@id/lyContactContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sina.weibo.view.PullDownView android:id="@id/pdContact" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/lvContact" android:fadingEdge="none" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:drawSelectorOnTop="false" android:scrollingCache="false" android:divider="@drawable/divider_horizontal_timeline" android:dividerHeight="1.0dip" android:layout_weight="0.0" />
+            </com.sina.weibo.view.PullDownView>
+            <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/lyContactPrompt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivContactPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <RelativeLayout android:id="@id/lyContactStartPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/getfriend_text_small" android:textColor="@color/getfriend_selection_text" android:gravity="center_horizontal" android:id="@id/tvContactStartPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/getfriend_contact_prompt" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvContactStartOperate" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:text="@string/getfriend_contact_start" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@id/lyContactUploadPrompt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+                                <ProgressBar android:id="@id/pbContactUpload" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmallInverse" />
+                                <TextView android:textSize="@dimen/getfriend_text_small" android:textColor="@color/getfriend_selection_text" android:gravity="center_horizontal" android:id="@id/tvContactUploadPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/getfriend_contact_upload_prompt" />
+                            </LinearLayout>
+                            <com.sina.weibo.view.ContactsUploadingBar android:id="@id/lbContactBar" android:background="@drawable/findfriends_contacts_progressbar_bg" android:layout_width="250.0dip" android:layout_height="12.0dip" android:layout_marginTop="90.0dip" android:src="@null" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:orientation="vertical" android:id="@id/lyContactBindPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@color/getfriend_selection_text_highlighted" android:gravity="center_horizontal" android:id="@id/tvContactBindPrompt1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/getfriend_contact_bind_prompt1" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="@dimen/getfriend_text_small" android:textColor="@color/getfriend_selection_text" android:gravity="center_horizontal" android:id="@id/tvContactBindPrompt2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_contact_bind_prompt2" android:layout_below="@id/tvContactBindPrompt1" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvContactBindOperate" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:text="@string/getfriend_contact_bind" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </ScrollView>
+            <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@color/getfriend_selection_text_highlighted" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/tvContactNodata" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/getfriend_contact_nodata" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/lyNearbyContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sina.weibo.view.PullDownView android:id="@id/pdNearby" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/lvNearby" android:fadingEdge="none" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:drawSelectorOnTop="false" android:scrollingCache="false" android:divider="@drawable/divider_horizontal_timeline" android:dividerHeight="1.0dip" android:layout_weight="0.0" />
+            </com.sina.weibo.view.PullDownView>
+            <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/lyNearbyPrompt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivNearbyPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/getfriend_text_small" android:textColor="@color/getfriend_selection_text" android:gravity="center_horizontal" android:id="@id/tvNearbyPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/getfriend_nearby_prompt" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+                        <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvNearbyOperate" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:text="@string/getfriend_nearby_enable" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+            <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@color/getfriend_selection_text_highlighted" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/tvNearbyNodata" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/getfriend_nearby_nodata" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/lyRelationshipContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sina.weibo.view.PullDownView android:id="@id/pdRelationship" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/lvRelationship" android:fadingEdge="none" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:drawSelectorOnTop="false" android:scrollingCache="false" android:divider="@drawable/divider_horizontal_timeline" android:dividerHeight="1.0dip" android:layout_weight="0.0" />
+            </com.sina.weibo.view.PullDownView>
+            <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/tvRelationshipPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </ScrollView>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/lyRelationshipNodata" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@color/getfriend_selection_text_highlighted" android:gravity="center_horizontal" android:id="@id/tvRelationshipNodata1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_relationship_nodata1" />
+                <TextView android:textSize="@dimen/getfriend_text_small" android:textColor="@color/getfriend_selection_text" android:gravity="center_horizontal" android:id="@id/tvRelationshipNodata2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_relationship_nodata2" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/lyQRcodeContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/lyQRcodePrompt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivQRcodeImage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@color/getfriend_selection_text_highlighted" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tvQrcodePrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/scan_qrcode" />
+                    <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvQRcodeSharedButton" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/shared_my_qrcode" />
+                    <TextView android:textSize="@dimen/getfriend_text_large" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvQRcodeScanButton" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/scanning" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lySelect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/lyShake" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivShake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/getfriend_selection_margintop" android:layout_marginBottom="@dimen/getfriend_selection_marginbottom" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/getfriend_text_small" android:ellipsize="none" android:gravity="center" android:id="@id/tvShake" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_shake" android:singleLine="true" android:layout_below="@id/ivShake" />
+"
+</RelativeLayout>
+        <RelativeLayout android:id="@id/lyContact" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivContact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/getfriend_selection_margintop" android:layout_marginBottom="@dimen/getfriend_selection_marginbottom" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/getfriend_text_small" android:ellipsize="none" android:gravity="center" android:id="@id/tvContact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_contact" android:singleLine="true" android:layout_below="@id/ivContact" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lyNearby" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivNearby" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/getfriend_selection_margintop" android:layout_marginBottom="@dimen/getfriend_selection_marginbottom" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/getfriend_text_small" android:ellipsize="none" android:gravity="center" android:id="@id/tvNearby" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_nearby" android:singleLine="true" android:layout_below="@id/ivNearby" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lyRelationship" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivRelationship" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/getfriend_selection_margintop" android:layout_marginBottom="@dimen/getfriend_selection_marginbottom" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/getfriend_text_small" android:ellipsize="none" android:gravity="center" android:id="@id/tvRelationship" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_relationship" android:singleLine="true" android:layout_below="@id/ivRelationship" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/lyQRcode" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivQRcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/getfriend_selection_margintop" android:layout_marginBottom="@dimen/getfriend_selection_marginbottom" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/getfriend_text_small" android:ellipsize="none" android:gravity="center" android:id="@id/tvQRcode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/getfriend_qrcode" android:singleLine="true" android:layout_below="@id/ivQRcode" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

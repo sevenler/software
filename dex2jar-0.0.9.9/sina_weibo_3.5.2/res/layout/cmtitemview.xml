@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/cmtitem_lyportrait" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.3299866dip" android:layout_marginTop="5.0dip" android:layout_marginRight="3.3299866dip">
+        <ImageView android:id="@id/cmtitem_portrait" android:padding="0.0dip" android:saveEnabled="true" android:scaleType="fitXY" android:adjustViewBounds="false" style="@style/small_portrait" />
+        <ImageView android:id="@id/cmtitem_portraitRound" android:saveEnabled="true" android:layout_width="@dimen/small_portrait_width" android:layout_height="@dimen/small_portrait_width" android:src="@drawable/portrait_round_small" android:scaleType="fitXY" />
+        <ImageView android:id="@id/cmtitem_portrait_mask" style="@style/small_portrait_mask" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/ly_item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/cmtitem_lyportrait" android:layout_alignTop="@id/cmtitem_lyportrait">
+        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="right" android:id="@id/tvItemCmtDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="" android:layout_alignParentRight="true" />
+        <FrameLayout android:id="@id/fr_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="85.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff0099cc" android:id="@id/tvItemCmtNickname" android:paddingRight="@dimen/comment_nick_name_padding_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_alignParentLeft="true" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/mblogCrown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </FrameLayout>
+        <ImageView android:id="@id/cmtitem_imgbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comments_commentbutton_background" android:scaleType="fitXY" android:layout_below="@id/tvItemCmtDate" android:layout_alignParentRight="true" />
+        <com.sina.weibo.view.MBlogTextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/tvItemCmtContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="" android:layout_toLeftOf="@id/cmtitem_imgbtn" android:layout_below="@id/fr_title" android:layout_alignTop="@id/cmtitem_imgbtn" />
+    </RelativeLayout>
+    <ImageView android:id="@id/cmtlist_custom_diveder" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/statusdetail_cell_sepatator" android:scaleType="fitXY" android:layout_below="@id/ly_item_content" />
+</RelativeLayout>

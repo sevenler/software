@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/alias_list_item_root" android:paddingLeft="@dimen/account_list_item_spacing_horz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:id="@*android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="18.0sp" android:textColor="?android:textColorSecondary" android:id="@*android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/alias_list_item_signature" android:background="@drawable/bb_item_background_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bb_ic_menu_preferences" android:scaleType="center" android:minWidth="48.0dip" />
+    <ImageView android:id="@id/alias_list_item_delete" android:background="@drawable/bb_item_background_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bb_ic_menu_close_clear_cancel" android:scaleType="center" android:minWidth="48.0dip" />
+</LinearLayout>

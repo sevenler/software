@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/message_display_attachment_minwidth" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/part_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/onebit_19" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_display_attachment_padding_horz" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/message_display_header_font_size_larger" android:ellipsize="middle" android:gravity="right" android:id="@id/part_file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="filename.ext" android:singleLine="true" style="@style/MyListTextAppearanceMedium" />
+        <TextView android:textSize="@dimen/message_display_header_font_size_smaller" android:gravity="right" android:id="@id/part_file_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="file.size" android:singleLine="true" style="@style/MyListTextAppearanceDefault" />
+        <ProgressBar android:id="@id/part_fetch_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" />
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/part_attach" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/message_display_attachment_padding_horz" />
+</LinearLayout>

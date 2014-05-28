@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/quick_response_item_text" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:maxLines="5" android:layout_weight="1.0" style="@style/MyAlertListTextAppearanceMedium" />
+    <ImageView android:id="@id/quick_response_item_delete" android:background="@drawable/bb_item_background_selector" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="fill_parent" android:src="@drawable/bb_ic_menu_close_clear_cancel" android:scaleType="center" />
+</LinearLayout>

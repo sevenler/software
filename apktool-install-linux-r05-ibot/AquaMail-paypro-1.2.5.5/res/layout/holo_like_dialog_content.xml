@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#80808080" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/holo_like_dialog_button_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/holo_like_dialog_button_positive" android:visibility="gone" style="@style/HoloLikeDialogButton" />
+        <View android:background="#80808080" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:id="@id/holo_like_dialog_button_neutral" android:visibility="gone" style="@style/HoloLikeDialogButton" />
+        <View android:background="#80808080" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:id="@id/holo_like_dialog_button_negative" android:visibility="gone" style="@style/HoloLikeDialogButton" />
+    </LinearLayout>
+</LinearLayout>

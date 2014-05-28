@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:weibo="http://schemas.android.com/apk/res/com.sina.weibo">
+    <RelativeLayout android:id="@id/lyMainInfo" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sina.weibo.view.RoundedImageView android:id="@id/ivPortrait" android:layout_width="@dimen/user_info_portrait_width" android:layout_height="@dimen/user_info_portrait_height" android:layout_marginLeft="10.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/portrait" weibo:corner_radius="@dimen/user_info_portrait_round" weibo:round_background="true" />
+        <ImageView android:id="@id/ivPortraitMask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5.0dip" android:layout_marginBottom="-5.0dip" android:src="@drawable/portrait_v_yellow" android:layout_alignRight="@id/ivPortrait" android:layout_alignBottom="@id/ivPortrait" />
+        <FrameLayout android:id="@id/lyNick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/ivPortrait">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/contacts_followitem_text" android:ellipsize="end" android:layout_gravity="left" android:id="@id/tvNick" android:paddingRight="@dimen/user_info_nick_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nick" android:singleLine="true" />
+            <LinearLayout android:layout_gravity="right" android:id="@id/lyNickRight" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ivGender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/user_info_male" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ivLeaguer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/userinfo_membership" />
+            </LinearLayout>
+        </FrameLayout>
+        <RelativeLayout android:id="@id/lyBtns" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignLeft="@id/lyNick" android:layout_alignBottom="@id/ivPortrait">
+            <FrameLayout android:id="@id/lyEditRelation" android:background="@drawable/userinfo_relationship_invitebutton" android:clickable="true" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/getfriend_contacts_invite_text" android:layout_gravity="center_vertical" android:id="@id/tvEditRelation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/attend" android:drawableLeft="@drawable/userinfo_relationship_indicator_arrow" android:drawablePadding="3.0dip" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivRelationArrow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:src="@drawable/userinfo_arrow_down" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/lyEditInfo" android:background="@drawable/userinfo_relationship_invitebutton" android:clickable="true" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/getfriend_contacts_invite_text" android:layout_gravity="center" android:id="@id/tvEditInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_accountmanager_edit" />
+            </FrameLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@id/lyVerifyInfo" android:clickable="true" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginRight="5.0dip" android:layout_below="@id/ivPortrait" android:layout_alignLeft="@id/ivPortrait">
+            <TextView android:textSize="12.0sp" android:textColor="@color/page_nick" android:ellipsize="end" android:layout_gravity="left|center" android:id="@id/tvVerifyInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/userinfo_sina_vip" android:singleLine="true" android:layout_below="@id/ivPortrait" android:layout_alignLeft="@id/ivPortrait" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/ivInfoTriangle" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/triangle" />
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

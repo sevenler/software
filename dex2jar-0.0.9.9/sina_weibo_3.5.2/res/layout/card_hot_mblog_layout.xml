@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:padding="4.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="88.0dip" android:minHeight="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/rl_main" android:paddingLeft="1.0dip" android:paddingRight="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/rl_portrait" android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_card_pic" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="5.0dip" android:scaleType="fitXY" android:adjustViewBounds="false" />
+            <ImageView android:layout_gravity="bottom|right|center" android:id="@id/iv_portrait_mask" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v_yellow" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/rl_portrait" android:layout_alignTop="@id/rl_portrait">
+            <TextView android:textSize="15.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="15.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_card_info1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="-6.0dip" android:lines="2" android:lineSpacingExtra="6.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

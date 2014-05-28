@@ -1,0 +1,163 @@
+Version 1.2.5.5
+
+* Bug fixes.
+
++ Updated translations (thanks Maciej, Roger, Alexander, Sylvain).
+
++ Per account color setting for account list (long press an account). 
+
+Version 1.2.5.0
+
++ Rich text editor for message text and signatures. Off by default for new messages, see Menu or settings, "Composing and Sending".
+
++ Built-in contact picker in compose window: search, groups, recent addresses not in system Contacts (don't like it? app settings -> Contacts).
+
++ Preview ical / .ics meeting invites (all Android versions), respond from AquaMail and add to Android calendar for tracking (4.0+). 
+
++ Support for viewing attachments inside winmail.dat (Microsoft Outlook's proprietary format).
+
++ Support for viewing attached messages (.eml), works for POP3 and IMAP both.
+
++ Sent messages in Smart Folder: under per-account Options and Folders / Composing and Sending.
+
++ DashClock Widget support (free in Google Play, Android 4.2+).
+
++ Pull to refresh (enabled by default, or see settings -> message list).
+
+* Bug fixes (those reported in Google Play).
+
++ A setting under "Composing and Sending" to set font size in outgoing HTML messages.
+
++ A setting under "Mail, sync" to skip checking mail when the screen is on ("game mode", like).
+
++ A setting under "Message list" to turn off different backgrounds for read vs. unread messages.
+
++ A setting under "Look and feel" to turn off most notification toasts ("draft saved", etc.).
+
++ A setting under "Mail, other" to mark read messages being moved to Deleted (defaults to off).
+
++ Clear recent folders from account list: in long press menu (on a recent folder).
+
++ Updated French translation (thanks, Alexandre!).
+
++ IMAP server side search fixes.
+
++ Time zone fixes for invites sent by Exchange 2007 Server.
+
++ Enabled contact images in message list / compose for Android 2.3, if enough memory (off by default, see app settings -> message list). 
+
++ Action buttons in status bar notifications now work with up to 5 messages at a time (if in same account) (4.1+). 
+
++ Image previews in sent messages / when composing (2.3+, defaults to on, can be turned off in app settings).
+
++ Updated Czech translation.
+
++ Sound for send notifications: app global, per-account (Special settings). 
+
++ DashClock extension: choose "all" or specific accounts.
+
++ "Cancel network tasks" in account list menu.
+
++ Fixed RTL text detection for Korean (not RTL).
+
++ Purge all local Deleted folders on exit, enable in Settings under Mail, other. 
+
++ "Color chips" for image-less contacts, like in latest Gmail, can be disabled in settings (under Message list). Android 3.0+.
+
+* Fixed search results not going "back" to original folder.
+
++ Settings for recent folders: how many to show, how long to keep on the list.
+
++ Improved BCC handling for sent messages uploaded to IMAP.
+
++ Separate per-account "send server" settings for WiFi (Account setup / Manual, optional).
+
+* Fixed crash with latest TalkBack.
+
++ Portuguese translation (thanks, @Diogo), Slovak translation (thanks, @Pyler).
+
++ IMAP server search: looks through loaded messages first (faster results); workaround for @mac.com / @me.com server bug.
+
+Version 1.2.4.0
+
++ Spring cleaning: old-fashioned blue gradients gone (account list, message list).
+
++ Right-to-left text support (check settings under Look and Feel).
+
++ Send notifications: vibrate (off by default, app settings or per-account special settings).
+
++ Error notifications (login, network error) can be turned off.
+
++ New "Look and Feel" setting: tap an account to open its Inbox (icon on the left to expand / collapse).
+
++ "BCC to self" now accepts multiple addresses.
+
++ Per-account attachment preload setting for "slow" mobile networks, separate from 3G+.
+
++ Updated Polish translation (thanks, Maciej!).
+
++ Two-panel animation improvements and fixes for 3.0-4.2.
+
+Version 1.2.3.15
+
++ Brought back "mobile view" for Android 4.0, can be enabled in Settings / Message view.  
+
++ Fixed some issues with attachments over POP3 (IncrediMail, maybe other cases).
+
++ Stars in message list now optional (Settings / Message list). 
+
++ Contact images in message list (Android 3.0+, off by default).
+
++ "Download" for linked images in messages (Android 3.0+, long press menu).
+
++ A setting to "lock UI on screen off", can be switched off (under Settings / Security). 
+
++ "Message view" fixes for some custom ROMs.
+
++ "Attach cropped image" when composing messages, please install QuickPic (free in Google Play).  
+
+Version 1.2.3.4
+
+* Fixed a couple issues that slipped past testing.
+
+Version 1.2.3.0
+
++ Added message auto-fit (like Gmail), fixed zooming, removed "mobile view", all for Android 4.0+ (see app settings under "Message view").
+
++ Easier IMAP folder access, on an as-needed basis (in folder message list title bar, when moving, in account list in two panel mode).
+
++ Folder selection dialog (to move, or open) is now hierarchical.
+
++ Settings screens now broken down by category, hierarchically.
+
++ Spam control for linked images: show only from "known" senders and Contacts (change in settings).
+
++ "Remove deleted from server" for POP3: defaults to off, enable in account's Options and Folders.
+
++ "Offline mode" for viewing older cached messages (IMAP), enabled by a button in folder message list footer after a sync error. 
+
++ When viewing a message, "load more" and "show images" panels now scroll up with message text.
+
++ Added wrapping for long folder names, on by default, can be turned off in settings.
+
++ Better tracking of "hidden" messages, so they don't come back later.
+
++ "Empty all local [ Deleted ]" in account list menu - great for POP3 accounts.
+
++ Added a setting under "Contacts" to confirm inserting groups into TO/CC (BCC is always allowed).
+
++ Fixed Gmail attachments for Turkish users.
+
++ A workaround for Cyrus POP3 "TOP" bug.
+
++ A setting to reply inline by default (bottom-posting), app settings, under Compose.
+
++ A setting to move buttons to the top of compose window, to avoid "accidents" while typing.
+
++ A per-account "Options and Folders" setting for the "Other folders…" item in the account list.
+
++ Folder chooser for accounts/settings backup/restore (e.g. to use the "real" sdcard on Samsung Galaxy devices).
+
+* Fixed downloaded attachments sometimes not getting scanned by MediaScanner / Gallery.
+
++ New per-account settings in Options and Folders: include in "Sync All" (in account list), "greeeting" for composing messages.  

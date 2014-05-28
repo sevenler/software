@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AquaMailTheme.Dark" parent="@style/ThemeCompat.Dark.AquaBase">
+        <item name="newMessageEmailViewStyle">@style/MyEmailViewStyle_PreHolo</item>
+        <item name="holoLikeDialogTheme">@style/HoloLikeDialogDark</item>
+        <item name="activatedBackground">@null</item>
+    </style>
+    <style name="AquaMailTheme.Light" parent="@style/ThemeCompat.Light.AquaBase">
+        <item name="newMessageEmailViewStyle">@style/MyEmailViewStyle_PreHolo</item>
+        <item name="holoLikeDialogTheme">@style/HoloLikeDialogLight</item>
+        <item name="activatedBackground">@null</item>
+    </style>
+    <style name="BogusBarDark">
+        <item name="bb_background">@color/theme_dark_bb_background</item>
+        <item name="bb_backgroundSplit">@drawable/theme_dark_bb_background_split</item>
+        <item name="bb_titleTextStyle">@style/BogusBarTitle.Dark</item>
+    </style>
+    <style name="BogusBarLight">
+        <item name="bb_background">@color/theme_light_bb_background</item>
+        <item name="bb_backgroundSplit">@drawable/theme_light_bb_background_split</item>
+        <item name="bb_titleTextStyle">@style/BogusBarTitle.Light</item>
+    </style>
+    <style name="MyAlertListTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="MyAlertListTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="MyAutoCompleteDropDownTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="MyAutoCompleteDropDownTextAppearanceSmall">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#ff404040</item>
+    </style>
+    <style name="MyDialogTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textColor">#ffbebebe</item>
+    </style>
+    <style name="MyDropDownTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="MyDropDownTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="MyListTextAppearanceDefault">
+        <item name="android:textAppearance">?android:textAppearanceInverse</item>
+    </style>
+    <style name="MyListTextAppearanceLarge">
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+    </style>
+    <style name="MyListTextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+    </style>
+    <style name="MyListTextAppearanceSmall">
+        <item name="android:textAppearance">?android:textAppearanceSmallInverse</item>
+    </style>
+    <style name="RibbonBar.Separator" parent="@style/RibbonBar.SeparatorBase">
+        <item name="android:background">#ff808080</item>
+    </style>
+    <style name="SeekBarFix">
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+    </style>
+    <style name="ThemeCompat" />
+    <style name="ThemeCompat.Default.Dark" parent="@*android:style/Theme">
+        <item name="android:expandableListViewStyle">@style/BogusExpandableListViewStyle</item>
+        <item name="android:listViewStyle">@style/BogusListViewStyle</item>
+    </style>
+    <style name="ThemeCompat.Default.Light" parent="@*android:style/Theme.Light">
+        <item name="android:expandableListViewStyle">@style/BogusExpandableListViewStyle</item>
+        <item name="android:listViewStyle">@style/BogusListViewStyle</item>
+    </style>
+    <style name="ThemeCompat.Dialog" parent="@style/ThemeCompat" />
+    <style name="ThemeCompat.Dialog.Dark" parent="@*android:style/Theme.Dialog" />
+    <style name="ThemeCompat.Dialog.Light" parent="@*android:style/Theme.Dialog" />
+    <style name="ThemeCompat.DialogWhenLarge" parent="@style/ThemeCompat" />
+    <style name="ThemeCompat.DialogWhenLarge.Dark" parent="@*android:style/Theme" />
+    <style name="ThemeCompat.DialogWhenLarge.Light" parent="@*android:style/Theme.Light" />
+    <style name="ThemeCompat.Holo" parent="@style/ThemeCompat" />
+    <style name="ThemeCompat.Holo.Dark" parent="@*android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:expandableListViewStyle">@style/BogusExpandableListViewStyle</item>
+        <item name="android:listViewStyle">@style/BogusListViewStyle</item>
+        <item name="bb_actionBarStyle">@style/BogusBarDark</item>
+        <item name="bb_actionBarSize">@dimen/bb_action_bar_size</item>
+        <item name="bb_homeAsUpIndicator">@drawable/bb_back_holo_dark</item>
+        <item name="bb_actionBarItemBackground">@drawable/bb_item_background_selector</item>
+        <item name="bb_actionOverflowButtonStyle">@style/BogusOverflowButton.Dark</item>
+        <item name="bb_panelBackground">@drawable/theme_dark_bb_menu_hardkey_panel</item>
+        <item name="bb_textAppearanceLargePopupMenu">@style/BogusBarTextAppearanceLargePopupMenu.Dark</item>
+        <item name="bb_popupMenuStyle">@style/BogusBarPopupMenuStyle.Dark</item>
+        <item name="bb_actionDropDownStyle">@style/BogusBarDropDownStyle.Dark</item>
+        <item name="bb_actionMenuTextAppearance">@style/BogusBarActionMenuTextAppearance</item>
+        <item name="bb_actionMenuTextColor">#ffffffff</item>
+        <item name="bb_listChoiceBackgroundIndicator">@drawable/bb_item_background_selector</item>
+        <item name="bb_searchViewSearchIcon">@drawable/theme_dark_bb_ic_search_api</item>
+        <item name="bb_searchViewCloseIcon">@drawable/theme_dark_bb_ic_search_close</item>
+        <item name="bb_searchViewTextField">@drawable/theme_dark_bb_textfield_search</item>
+        <item name="bb_searchDropdownBackground">@drawable/theme_dark_bb_menu_dropdown_panel</item>
+        <item name="bb_actionModeBackground">@drawable/theme_dark_bb_cab_background_top</item>
+        <item name="bb_actionModeSplitBackground">@drawable/theme_dark_bb_cab_background_bottom</item>
+        <item name="bb_actionModeCloseBackground">@drawable/theme_dark_bb_btn_cab_done</item>
+        <item name="bb_actionModeCloseDrawable">@drawable/theme_dark_bb_ic_cab_done</item>
+        <item name="bb_dividerVertical">@drawable/bb_divider_vertical_holo_dark</item>
+        <item name="bb_quickContactBadgeOverlay">@drawable/theme_dark_bb_quickcontact_badge_overlay_selector</item>
+    </style>
+    <style name="ThemeCompat.Holo.Light" parent="@*android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@drawable/theme_light_bb_shadow_holo</item>
+        <item name="android:expandableListViewStyle">@style/BogusExpandableListViewStyle</item>
+        <item name="android:listViewStyle">@style/BogusListViewStyle</item>
+        <item name="bb_actionBarStyle">@style/BogusBarLight</item>
+        <item name="bb_actionBarSize">@dimen/bb_action_bar_size</item>
+        <item name="bb_homeAsUpIndicator">@drawable/bb_back_holo_light</item>
+        <item name="bb_actionBarItemBackground">@drawable/bb_item_background_selector</item>
+        <item name="bb_actionOverflowButtonStyle">@style/BogusOverflowButton.Light</item>
+        <item name="bb_panelBackground">@drawable/theme_light_bb_menu_hardkey_panel</item>
+        <item name="bb_textAppearanceLargePopupMenu">@style/BogusBarTextAppearanceLargePopupMenu.Light</item>
+        <item name="bb_popupMenuStyle">@style/BogusBarPopupMenuStyle.Light</item>
+        <item name="bb_actionDropDownStyle">@style/BogusBarDropDownStyle.Light</item>
+        <item name="bb_actionMenuTextAppearance">@style/BogusBarActionMenuTextAppearance</item>
+        <item name="bb_actionMenuTextColor">#ff000000</item>
+        <item name="bb_listChoiceBackgroundIndicator">@drawable/bb_item_background_selector</item>
+        <item name="bb_searchViewSearchIcon">@drawable/theme_light_bb_ic_search_api</item>
+        <item name="bb_searchViewCloseIcon">@drawable/theme_light_bb_ic_search_close</item>
+        <item name="bb_searchViewTextField">@drawable/theme_light_bb_textfield_search</item>
+        <item name="bb_searchDropdownBackground">@drawable/theme_light_bb_menu_dropdown_panel</item>
+        <item name="bb_actionModeBackground">@drawable/theme_light_bb_cab_background_top</item>
+        <item name="bb_actionModeSplitBackground">@drawable/theme_light_bb_cab_background_bottom</item>
+        <item name="bb_actionModeCloseBackground">@drawable/theme_light_bb_btn_cab_done</item>
+        <item name="bb_actionModeCloseDrawable">@drawable/theme_light_bb_ic_cab_done</item>
+        <item name="bb_dividerVertical">@drawable/bb_divider_vertical_holo_light</item>
+        <item name="bb_quickContactBadgeOverlay">@drawable/theme_light_bb_quickcontact_badge_overlay_selector</item>
+    </style>
+    <style name="AnimationDropDownBottomLeft">
+        <item name="android:windowEnterAnimation">@anim/android_grow_fade_in_from_bottom_left</item>
+        <item name="android:windowExitAnimation">@anim/android_shrink_fade_out_from_bottom_left</item>
+    </style>
+    <style name="AnimationDropDownBottomRight">
+        <item name="android:windowEnterAnimation">@anim/android_grow_fade_in_from_bottom_right</item>
+        <item name="android:windowExitAnimation">@anim/android_shrink_fade_out_from_bottom_right</item>
+    </style>
+    <style name="BogusBarActionMenuTextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?bb_actionMenuTextColor</item>
+    </style>
+    <style name="BogusBarDropDownStyle" />
+    <style name="BogusBarDropDownStyle.Dark" parent="@style/BogusBarDropDownStyle">
+        <item name="android:background">@drawable/bb_spinner_holo_dark_selector</item>
+    </style>
+    <style name="BogusBarDropDownStyle.Light" parent="@style/BogusBarDropDownStyle">
+        <item name="android:background">@drawable/bb_spinner_holo_light_selector</item>
+    </style>
+    <style name="BogusBarPopupMenuStyle">
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="BogusBarPopupMenuStyle.Dark" parent="@style/BogusBarPopupMenuStyle">
+        <item name="android:popupBackground">@drawable/theme_dark_bb_menu_dropdown_panel</item>
+    </style>
+    <style name="BogusBarPopupMenuStyle.Light" parent="@style/BogusBarPopupMenuStyle">
+        <item name="android:popupBackground">@drawable/theme_light_bb_menu_dropdown_panel</item>
+    </style>
+    <style name="BogusBarTextAppearanceLargePopupMenu">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="BogusBarTextAppearanceLargePopupMenu.Dark" parent="@style/BogusBarTextAppearanceLargePopupMenu">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="BogusBarTextAppearanceLargePopupMenu.Light" parent="@style/BogusBarTextAppearanceLargePopupMenu">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="BogusBarTitle">
+        <item name="android:textSize">@dimen/bb_title_text_size</item>
+    </style>
+    <style name="BogusBarTitle.Dark" parent="@style/BogusBarTitle">
+        <item name="android:textSize">@dimen/bb_title_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="BogusBarTitle.Light" parent="@style/BogusBarTitle">
+        <item name="android:textSize">@dimen/bb_title_text_size</item>
+    </style>
+    <style name="BogusExpandableListViewStyle" parent="@*android:style/Widget.ExpandableListView">
+        <item name="android:listSelector">@drawable/bb_item_background_selector</item>
+        <item name="android:divider">#80808080</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="BogusListViewStyle" parent="@*android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/bb_item_background_selector</item>
+        <item name="android:divider">#80808080</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="BogusOverflowButton">
+        <item name="android:background">@drawable/bb_item_background_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="BogusOverflowButton.Dark" parent="@style/BogusOverflowButton">
+        <item name="android:src">@drawable/theme_dark_bb_ic_menu_moreoverflow</item>
+    </style>
+    <style name="BogusOverflowButton.Light" parent="@style/BogusOverflowButton">
+        <item name="android:src">@drawable/theme_light_bb_ic_menu_moreoverflow</item>
+    </style>
+    <style name="BogusSearchEditStyle" />
+    <style name="CWUnreadCount">
+        <item name="android:textSize">@dimen/widget_unread_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:layout_gravity">top|left|center</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowRadius">2.5</item>
+    </style>
+    <style name="CWUnreadCount.Frameless" parent="@style/CWUnreadCount">
+        <item name="android:textColor">@color/widget_unread_text_color_frameless</item>
+        <item name="android:background">@drawable/widget_unread_background_frameless</item>
+    </style>
+    <style name="CWUnreadCount.Glass" parent="@style/CWUnreadCount">
+        <item name="android:textColor">@color/widget_unread_text_color_glass</item>
+        <item name="android:background">@drawable/widget_unread_background_glass</item>
+    </style>
+    <style name="CWUnreadCount.Metal" parent="@style/CWUnreadCount">
+        <item name="android:textColor">@color/widget_unread_text_color_metal</item>
+        <item name="android:background">@drawable/widget_unread_background_metal</item>
+    </style>
+    <style name="CWUnreadCount.Porcelain" parent="@style/CWUnreadCount">
+        <item name="android:textColor">@color/widget_unread_text_color_porcelain</item>
+        <item name="android:background">@drawable/widget_unread_background_porcelain</item>
+    </style>
+    <style name="Edge">
+        <item name="android:background">#ff808080</item>
+    </style>
+    <style name="Edge.H" parent="@style/Edge">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="Edge.H.Both" parent="@style/Edge.H">
+        <item name="android:layout_marginTop">2.0px</item>
+        <item name="android:layout_marginBottom">2.0px</item>
+    </style>
+    <style name="Edge.H.Holo" parent="@style/Edge.H" />
+    <style name="Edge.H.Holo.Slim" parent="@style/Edge.H.Holo">
+        <item name="android:background">@drawable/android_divider_strong_holo</item>
+        <item name="android:layout_height">2.0dip</item>
+    </style>
+    <style name="FolderSeparator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="HelpText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#fff0f0f0</item>
+    </style>
+    <style name="HelpWindow" parent="@style/ThemeCompat.Holo.Dark">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="HoloLikeDialogButton" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?bb_actionBarItemBackground</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/bb_action_bar_size</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="HoloLikeDialogDark" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/theme_dark_bb_dialog_full_holo</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="HoloLikeDialogLight" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/theme_light_bb_dialog_full_holo</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="LW" />
+    <style name="LW.Header" parent="@style/LW" />
+    <style name="LW.Header.Button" parent="@style/LW.Header">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bb_item_background_selector</item>
+        <item name="android:layout_width">@dimen/list_widget_button_size</item>
+        <item name="android:layout_height">@dimen/list_widget_button_size</item>
+    </style>
+    <style name="LW.Header.Label" parent="@style/LW.Header">
+        <item name="android:textSize">@dimen/list_widget_label_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bb_item_background_selector</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="LW.Header.Label.Frameless" parent="@style/LW.Header.Label">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Header.Label.Glass" parent="@style/LW.Header.Label">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Header.Label.Metal" parent="@style/LW.Header.Label">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Header.Label.Porcelain" parent="@style/LW.Header.Label">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:shadowColor">#ffa0a0a0</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Header.Unread" parent="@style/LW.Header">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+    </style>
+    <style name="LW.Header.Unread.Frameless" parent="@style/LW.Header.Unread">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Header.Unread.Glass" parent="@style/LW.Header.Unread">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Header.Unread.Metal" parent="@style/LW.Header.Unread">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Header.Unread.Porcelain" parent="@style/LW.Header.Unread">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:shadowColor">#ffa0a0a0</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="LW.Item" parent="@style/LW" />
+    <style name="LW.Item.HCRoot" parent="@style/LW.Item">
+        <item name="android:padding">2.0dip</item>
+    </style>
+    <style name="LW.Item.Line1" parent="@style/LW.Item">
+        <item name="android:textSize">@dimen/list_widget_line_1_font_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="LW.Item.Line1.Read" parent="@style/LW.Item.Line1" />
+    <style name="LW.Item.Line1.Unread" parent="@style/LW.Item.Line1">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="LW.Item.Line2" parent="@style/LW.Item">
+        <item name="android:textSize">@dimen/list_widget_line_2_font_size</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="LW.Item.Line2.Read" parent="@style/LW.Item.Line2" />
+    <style name="LW.Item.Line2.Unread" parent="@style/LW.Item.Line2" />
+    <style name="LW.Item.Root" parent="@style/LW.Item">
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+    <style name="LW.Item.When" parent="@style/LW.Item">
+        <item name="android:textSize">@dimen/list_widget_when_font_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="LW.ItemContainer" parent="@style/LW">
+        <item name="android:background">@drawable/bb_item_background_selector</item>
+    </style>
+    <style name="MessageListHint">
+        <item name="android:textSize">@dimen/message_list_teritary_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="MessageListOther">
+        <item name="android:textSize">@dimen/message_list_secondary_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="MessageListSubject">
+        <item name="android:textSize">@dimen/message_list_primary_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="MyEmailViewStyle_PreHolo" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:textColor">@*android:color/primary_text_light</item>
+    </style>
+    <style name="MyTextError">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/text_error</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MyTextMedium">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="MyTextSecondaryError">
+        <item name="android:textColor">@color/text_error</item>
+    </style>
+    <style name="MyTextSecondaryNoError">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="MyTextSmall">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="NewMessageCloseButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bb_item_background_selector</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:src">@drawable/bb_ic_menu_close_clear_cancel</item>
+        <item name="android:minHeight">44.0dip</item>
+    </style>
+    <style name="PullProgressBar" parent="@*android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">4.0dip</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:progressDrawable">@drawable/pull_progress_drawable_scaleable</item>
+        <item name="android:minHeight">4.0dip</item>
+    </style>
+    <style name="RibbonBar" />
+    <style name="RibbonBar.ImageButton" parent="@style/RibbonBar">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bb_item_background_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">@dimen/ribbon_bar_height</item>
+    </style>
+    <style name="RibbonBar.Panel" parent="@style/RibbonBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RibbonBar.Panel.BottomEdge" parent="@style/RibbonBar.Panel">
+        <item name="android:background">?ribbonBackgroundBottomEdge</item>
+        <item name="android:paddingBottom">1.0px</item>
+    </style>
+    <style name="RibbonBar.Separator.gone" parent="@style/RibbonBar.Separator">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="RibbonBar.SeparatorBase" parent="@style/RibbonBar">
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+    </style>
+    <style name="RibbonBar.TextButton" parent="@style/RibbonBar">
+        <item name="android:textSize">@dimen/ribbon_bar_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bb_item_background_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">@dimen/ribbon_bar_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="RichEditIconsDark">
+        <item name="ic_font_bold">@drawable/theme_dark_ic_font_bold</item>
+        <item name="ic_font_italic">@drawable/theme_dark_ic_font_italic</item>
+        <item name="ic_font_underline">@drawable/theme_dark_ic_font_underline</item>
+        <item name="ic_font_strokethrough">@drawable/theme_dark_ic_font_strokethrough</item>
+        <item name="ic_text_color">@drawable/theme_dark_ic_text_color</item>
+        <item name="ic_typeface">@drawable/theme_dark_ic_typeface</item>
+        <item name="ic_font_size">@drawable/theme_dark_ic_font_size</item>
+        <item name="ic_clear_format">@drawable/theme_dark_ic_clear_format</item>
+    </style>
+    <style name="RichEditIconsLight">
+        <item name="ic_font_bold">@drawable/theme_light_ic_font_bold</item>
+        <item name="ic_font_italic">@drawable/theme_light_ic_font_italic</item>
+        <item name="ic_font_underline">@drawable/theme_light_ic_font_underline</item>
+        <item name="ic_font_strokethrough">@drawable/theme_light_ic_font_strokethrough</item>
+        <item name="ic_text_color">@drawable/theme_light_ic_text_color</item>
+        <item name="ic_typeface">@drawable/theme_light_ic_typeface</item>
+        <item name="ic_font_size">@drawable/theme_light_ic_font_size</item>
+        <item name="ic_clear_format">@drawable/theme_light_ic_clear_format</item>
+    </style>
+    <style name="ThemeCompat.Dark.AquaBase" parent="@style/ThemeCompat.Holo.Dark">
+        <item name="panelSeparatorColor">#ff606060</item>
+        <item name="messageListSubjectRead">@*android:color/secondary_text_dark</item>
+        <item name="messageListSubjectUnread">@*android:color/primary_text_dark</item>
+        <item name="messageListBackgroundRead">@drawable/message_list_read_background_dark_selector</item>
+        <item name="messageListBackgroundUnread">@drawable/message_list_unread_background_dark_selector</item>
+        <item name="messageListBackgroundClear">@drawable/message_list_clear_background_dark_selector</item>
+        <item name="messageListGroupFillColor">@color/theme_dark_message_list_group_header_fill</item>
+        <item name="messageListGroupEdgeColor">@color/theme_dark_message_list_group_header_edge</item>
+        <item name="messageListCheckmarkSelector">@drawable/message_sel_selector_dark_slim</item>
+        <item name="messageListCheckmarkOn">@drawable/message_sel_checked_dark_slim</item>
+        <item name="messageListCheckmarkOff">@drawable/message_sel_unchecked_dark_slim</item>
+        <item name="messageListStarOn">@drawable/message_star_on_dark</item>
+        <item name="messageListStarOff">@drawable/message_star_off_dark</item>
+        <item name="messageListSeparator">@drawable/theme_dark_list_divider</item>
+        <item name="messageListAuxColor">#ff6699ff</item>
+        <item name="messageListIndicatorBackground">#ff000000</item>
+        <item name="messageListDragDropColor">@color/theme_dark_message_list_checked</item>
+        <item name="messageListCheckedColor">@color/theme_dark_message_list_checked</item>
+        <item name="textColorPrimary">@*android:color/primary_text_dark</item>
+        <item name="textColorSecondary">@*android:color/secondary_text_dark</item>
+        <item name="accentColor">@color/theme_dark_color_accent</item>
+        <item name="blueAcccentColor">@color/theme_dark_color_blue_darker</item>
+        <item name="messageStar">@drawable/message_star_selector_dark</item>
+        <item name="messageExpanderOpen">@drawable/theme_dark_expander_open</item>
+        <item name="messageExpanderClose">@drawable/theme_dark_expander_close</item>
+        <item name="messageFullScreenPanel">@drawable/theme_dark_bb_transparent_panel</item>
+        <item name="messageTopAreaSelector">@drawable/message_top_area_highlight_selector_dark</item>
+        <item name="ribbonBackgroundColor">@color/theme_dark_color_ribbon</item>
+        <item name="ribbonBackgroundBase">@drawable/theme_dark_ribbon_background_base</item>
+        <item name="ribbonBackgroundTopEdge">@drawable/theme_dark_ribbon_background_top_edge</item>
+        <item name="ribbonBackgroundBottomEdge">@drawable/theme_dark_ribbon_background_bottom_edge</item>
+        <item name="ribbonBackgroundBothEdges">@drawable/theme_dark_ribbon_background_both_edges</item>
+        <item name="ic_menu_selectall">@drawable/android_ic_menu_selectall_holo_dark</item>
+        <item name="ic_menu_movespam">@drawable/theme_dark_bb_ic_menu_spam</item>
+        <item name="ic_menu_text_format">@drawable/theme_dark_ic_typeface</item>
+        <item name="ic_prev_arrow">@drawable/icon_prev_arrow_selector_holo_dark</item>
+        <item name="ic_next_arrow">@drawable/icon_next_arrow_selector_holo_dark</item>
+        <item name="ic_message_reply">@drawable/icon_reply_new</item>
+        <item name="ic_message_reply_all">@drawable/icon_reply_all_new</item>
+        <item name="ic_message_forward">@drawable/icon_reply_forward_new</item>
+        <item name="ic_mark_read">@drawable/icon_mark_read_new</item>
+        <item name="ic_mark_unread">@drawable/icon_mark_unread_new</item>
+        <item name="ic_mark_star_on">@drawable/icon_star_on_new_holo_dark</item>
+        <item name="ic_mark_star_off">@drawable/icon_star_off_new_holo_dark</item>
+        <item name="ic_pick_contact">@drawable/theme_dark_icon_add_contact</item>
+        <item name="richEditTextIcons">@style/RichEditIconsDark</item>
+        <item name="richEditCheckedColor">#ff0099cc</item>
+    </style>
+    <style name="ThemeCompat.Default" parent="@style/ThemeCompat" />
+    <style name="ThemeCompat.Light.AquaBase" parent="@style/ThemeCompat.Holo.Light">
+        <item name="panelSeparatorColor">#ffa0a0a0</item>
+        <item name="messageListSubjectRead">@*android:color/primary_text_light</item>
+        <item name="messageListSubjectUnread">@*android:color/primary_text_light</item>
+        <item name="messageListBackgroundRead">@drawable/message_list_read_background_light_selector</item>
+        <item name="messageListBackgroundUnread">@drawable/message_list_unread_background_light_selector</item>
+        <item name="messageListBackgroundClear">@drawable/message_list_clear_background_light_selector</item>
+        <item name="messageListGroupFillColor">@color/theme_light_message_list_group_header_fill</item>
+        <item name="messageListGroupEdgeColor">@color/theme_light_message_list_group_header_edge</item>
+        <item name="messageListCheckmarkSelector">@drawable/message_sel_selector_light_slim</item>
+        <item name="messageListCheckmarkOn">@drawable/message_sel_checked_light_slim</item>
+        <item name="messageListCheckmarkOff">@drawable/message_sel_unchecked_light_slim</item>
+        <item name="messageListStarOn">@drawable/message_star_on_light</item>
+        <item name="messageListStarOff">@drawable/message_star_off_light</item>
+        <item name="messageListSeparator">@drawable/theme_light_list_divider</item>
+        <item name="messageListAuxColor">#ff003399</item>
+        <item name="messageListIndicatorBackground">#ffffffff</item>
+        <item name="messageListDragDropColor">@color/theme_light_message_list_checked</item>
+        <item name="messageListCheckedColor">@color/theme_light_message_list_checked</item>
+        <item name="textColorPrimary">@*android:color/primary_text_light</item>
+        <item name="textColorSecondary">@*android:color/secondary_text_light</item>
+        <item name="accentColor">@color/theme_light_color_accent</item>
+        <item name="blueAcccentColor">@color/theme_light_color_blue_darker</item>
+        <item name="messageStar">@drawable/message_star_selector_light</item>
+        <item name="messageExpanderOpen">@drawable/theme_light_expander_open</item>
+        <item name="messageExpanderClose">@drawable/theme_light_expander_close</item>
+        <item name="messageFullScreenPanel">@drawable/theme_light_bb_transparent_panel</item>
+        <item name="messageTopAreaSelector">@drawable/message_top_area_highlight_selector_light</item>
+        <item name="ribbonBackgroundColor">@color/theme_light_color_ribbon</item>
+        <item name="ribbonBackgroundBase">@drawable/theme_light_ribbon_background_base</item>
+        <item name="ribbonBackgroundTopEdge">@drawable/theme_light_ribbon_background_top_edge</item>
+        <item name="ribbonBackgroundBottomEdge">@drawable/theme_light_ribbon_background_bottom_edge</item>
+        <item name="ribbonBackgroundBothEdges">@drawable/theme_light_ribbon_background_both_edges</item>
+        <item name="ic_menu_selectall">@drawable/android_ic_menu_selectall_holo_light</item>
+        <item name="ic_menu_movespam">@drawable/theme_light_bb_ic_menu_spam</item>
+        <item name="ic_menu_text_format">@drawable/theme_light_ic_typeface</item>
+        <item name="ic_prev_arrow">@drawable/icon_prev_arrow_selector_holo_light</item>
+        <item name="ic_next_arrow">@drawable/icon_next_arrow_selector_holo_light</item>
+        <item name="ic_message_reply">@drawable/icon_reply_new</item>
+        <item name="ic_message_reply_all">@drawable/icon_reply_all_new</item>
+        <item name="ic_message_forward">@drawable/icon_reply_forward_new</item>
+        <item name="ic_mark_read">@drawable/icon_mark_read_new</item>
+        <item name="ic_mark_unread">@drawable/icon_mark_unread_new</item>
+        <item name="ic_mark_star_on">@drawable/icon_star_on_new_holo_light</item>
+        <item name="ic_mark_star_off">@drawable/icon_star_off_new_holo_light</item>
+        <item name="ic_pick_contact">@drawable/theme_light_icon_add_contact</item>
+        <item name="richEditTextIcons">@style/RichEditIconsLight</item>
+        <item name="richEditCheckedColor">#ff33b5e5</item>
+    </style>
+    <style name="UILockDialog" parent="@style/ThemeCompat.Dialog.Dark">
+        <item name="android:windowBackground">@drawable/widget_bg_new_metal</item>
+    </style>
+</resources>

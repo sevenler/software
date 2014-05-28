@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_options_prefs_delete_plan_entries">
+        <item>Переміщувати до теки Видалені</item>
+        <item>Негайно видалити з сервера</item>
+        <item>Приховати, залишити на сервері</item>
+    </string-array>
+    <string-array name="account_options_prefs_folder_sort_entries">
+        <item>За назвою теки</item>
+        <item>За новими листами</item>
+        <item>За кількістю листів</item>
+    </string-array>
+    <string-array name="account_options_prefs_pop3_delayed_delete_entries">
+        <item>Нова сесія (негайно)</item>
+        <item>Спільна сесія (під час перевірки пошти)</item>
+    </string-array>
+    <string-array name="account_options_prefs_pop3_locate_limit_entries">
+        <item>До 10 листів</item>
+        <item>До 25 листів</item>
+        <item>До 50 листів</item>
+        <item>До 100 листів</item>
+        <item>До 250 листів</item>
+    </string-array>
+    <string-array name="account_setup_incoming_pop3_order_array">
+        <item>Автоматичний</item>
+        <item>Прямий (звичайний)</item>
+        <item>Зворотній (рідкісний)</item>
+    </string-array>
+    <string-array name="account_setup_incoming_server_type_array">
+        <item>IMAP</item>
+        <item>POP3</item>
+    </string-array>
+    <string-array name="account_setup_server_security_array">
+        <item>Без шифру</item>
+        <item>SSL (суворий)</item>
+        <item>SSL (спрощений)</item>
+        <item>STARTTLS (суворий)</item>
+        <item>STARTTLS (спрощений)</item>
+    </string-array>
+    <string-array name="account_setup_smtp_login_scheme_array">
+        <item>Вибрати автоматично</item>
+        <item>Без авторизування</item>
+        <item>SASL CRAM-MD5</item>
+        <item>SASL PLAIN</item>
+        <item>SASL LOGIN</item>
+    </string-array>
+    <string-array name="prefs_command_batch_size_entries">
+        <item>Маленький (кращий час відгуку)</item>
+        <item>Великий (краща швидкість)</item>
+    </string-array>
+    <string-array name="prefs_debug_log_target_entries">
+        <item>Logcat (system log)</item>
+        <item>Root of memory card</item>
+    </string-array>
+    <string-array name="prefs_display_mark_read_entries">
+        <item>Одразу</item>
+        <item>За 3 секунди</item>
+        <item>За 5 секунд</item>
+        <item>За 10 секунд</item>
+        <item>За 15 секунд</item>
+        <item>Не позначати</item>
+    </string-array>
+    <string-array name="prefs_load_the_rest_entries">
+        <item>До 5 КБ</item>
+        <item>До 10 КБ</item>
+        <item>До 25 КБ</item>
+        <item>До 50 КБ</item>
+        <item>До 100 КБ</item>
+        <item>Без обмежень</item>
+        <item>Інше значення</item>
+    </string-array>
+    <string-array name="prefs_locale_default_on_off_entries">
+        <item>Не змінювати</item>
+        <item>Увімкнути</item>
+        <item>Вимкнути</item>
+    </string-array>
+    <string-array name="prefs_locale_default_tri_state_entries">
+        <item>Не змінювати</item>
+        <item>Увімкнути</item>
+        <item>Скинути на типове</item>
+    </string-array>
+    <string-array name="prefs_message_preload_limit_entries">
+        <item>Тільки заголовки</item>
+        <item>До 1 КБ</item>
+        <item>До 5 КБ</item>
+        <item>До 10 КБ</item>
+        <item>До 25 КБ</item>
+        <item>До 64 КБ</item>
+        <item>Без обмежень</item>
+        <item>Інше значення</item>
+    </string-array>
+    <string-array name="prefs_notify_weekend_entries">
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П’ятниця</item>
+        <item>Субота</item>
+        <item>Неділя</item>
+    </string-array>
+    <integer-array name="prefs_notify_weekend_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="prefs_sync_system_checks_entries">
+        <item>Враховувати все</item>
+        <item>Синхр. навіть коли \"Автосинхронізація\" вимкн.</item>
+        <item>Синхр. навіть коли \"Фонові дані\" вимкн.</item>
+    </string-array>
+    <string-array name="prefs_ui_after_delete_entries">
+        <item>Перейти до переліку листів</item>
+        <item>Перейти до попереднього листа</item>
+        <item>Перейти до наступного листа</item>
+    </string-array>
+    <string-array name="prefs_ui_bogus_bar_position_entries">
+        <item>Автоматично</item>
+        <item>Згори</item>
+        <item>Знизу</item>
+    </string-array>
+    <string-array name="prefs_ui_main_expand_entries">
+        <item>Жодних</item>
+        <item>З непрочитаними листами</item>
+        <item>Всі</item>
+    </string-array>
+    <string-array name="prefs_ui_orientation_entries">
+        <item>Орієнтація приладу</item>
+        <item>Встановити вертикальну</item>
+        <item>Встановити горизонтальну</item>
+    </string-array>
+    <string-array name="prefs_ui_theme_entries">
+        <item>Світла</item>
+        <item>Темна, листи світлі</item>
+        <item>Темна включно з листами</item>
+    </string-array>
+    <string-array name="uilock_timeout_entries">
+        <item>Одразу</item>
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 хвилина</item>
+        <item>5 хвилин</item>
+        <item>15 хвилин</item>
+    </string-array>
+    <string-array name="widget_theme_array">
+        <item>Метал</item>
+        <item>Порцеляна</item>
+        <item>Скло</item>
+        <item>Без рамки</item>
+    </string-array>
+</resources>

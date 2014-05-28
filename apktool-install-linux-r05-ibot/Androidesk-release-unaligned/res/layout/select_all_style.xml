@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#eeffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/shape_line" />
+    <Button android:textColor="@color/red" android:id="@id/delete" android:background="@drawable/select_button_live" android:layout_width="150.0dip" android:layout_height="45.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/delete" android:layout_weight="1.0" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/select_panel" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_toLeftOf="@id/delete" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <CheckBox android:layout_gravity="center" android:id="@id/select_all" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" style="@style/SelectAllCheckBox" />
+        <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/select_all_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_select" />
+    </LinearLayout>
+</RelativeLayout>

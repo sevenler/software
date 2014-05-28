@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_options_account_color">Assign colour</string>
+    <string name="account_options_account_color_override_folders">Override folder colours</string>
+    <string name="cwac_richedittext_textcolor">Text colour</string>
+    <string name="prefs_notify_led_color">LED colour</string>
+    <string name="prefs_ui_color_labels">Colour labels</string>
+    <string name="prefs_ui_color_labels_summary">Show colour labels next to folders</string>
+    <string name="prefs_ui_theme">Colour theme</string>
+    <string name="prefs_view_list_color_chips">Colour chips</string>
+    <string name="prefs_view_list_color_chips_summary">Show colour chips for senders without images</string>
+    <string name="account_options_folder_has_colour">Colour indicator</string>
+</resources>

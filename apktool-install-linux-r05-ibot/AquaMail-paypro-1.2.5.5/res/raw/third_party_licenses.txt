@@ -1,0 +1,17 @@
+AquaMail uses the following 3rd party software:
+
+JZlib is a re-implementation of zlib in pure Java.
+
+Copyright (c) 2000-2011 ymnk, JCraft,Inc. All rights reserved.
+
+HtmlCleaner is open-source HTML parser written in Java. 
+
+Copyright (c) 2006-2012, HtmlCleaner team. All rights reserved.
+
+CWAC RichEditText: Letting Users Make Text Pretty
+
+Copyright (c) 2011-2012 CommonsWare, LLC.
+
+HoloColorPicker by Lars Werkman, designed by Marie Schweiz
+
+Copyright 2012 Lars Werkman

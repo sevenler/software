@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aqm="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/prefs_category_notify" android:key="prefsCategoryNotify">
+        <CheckBoxPreference android:title="@string/prefs_category_special_notify" android:key="prefsSpecialNotify" android:summary="@string/prefs_category_special_notify_summary" android:defaultValue="false" aqm:mdmMeta="accountSpecialSettings" />
+        <CheckBoxPreference android:title="@string/prefs_notify_on" android:key="prefsNotifyOn" android:summary="@string/prefs_notify_on_summary" android:dependency="prefsSpecialNotify" android:defaultValue="true" aqm:mdmMeta="accountSpecialSettings" />
+        <org.kman.AquaMail.prefs.ExtRingtonePreference android:title="@string/prefs_notify_sound" android:key="prefsNotifySound" android:dependency="prefsNotifyOn" android:ringtoneType="notification" android:showSilent="true" aqm:mdmMeta="accountSpecialSettings" />
+        <CheckBoxPreference android:title="@string/prefs_notify_led" android:key="prefsNotifyLed" android:summary="@string/prefs_notify_led_summary" android:dependency="prefsNotifyOn" android:defaultValue="true" aqm:mdmMeta="accountSpecialSettings" />
+        <org.kman.AquaMail.prefs.PickColorPreference android:title="@string/prefs_notify_led_color" android:key="prefsNotifyLedColor" android:dependency="prefsNotifyLed" android:defaultValue="0xff00ff00" aqm:mdmMeta="accountSpecialSettings" />
+        <CheckBoxPreference android:title="@string/prefs_notify_vibration" android:key="prefsNotifyVibration" android:summary="@string/prefs_notify_vibration_summary" android:dependency="prefsNotifyOn" android:defaultValue="false" aqm:mdmMeta="accountSpecialSettings" />
+        <CheckBoxPreference android:title="@string/prefs_notify_vibration_observe_mode" android:key="prefsNotifyVibrationObserveMode" android:summary="@string/prefs_notify_vibration_observe_mode_summary" android:dependency="prefsNotifyVibration" android:defaultValue="false" aqm:mdmMeta="accountSpecialSettings" />
+        <org.kman.AquaMail.prefs.VibrationPreference android:title="@string/prefs_notify_vibration_pattern" android:key="prefsNotifyVibrationPattern" android:summary="@string/prefs_notify_vibration_pattern_default" android:dependency="prefsNotifyVibration" android:defaultValue="0" />
+        <CheckBoxPreference android:title="@string/prefs_notify_screen_on" android:key="prefsNotifyScreenOn" android:summary="@string/prefs_notify_screen_on_summary" android:dependency="prefsNotifyOn" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/prefs_notify_numbers" android:key="prefsNotifyNumbers" android:summary="@string/prefs_notify_numbers_summary" android:dependency="prefsNotifyOn" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/prefs_notify_sound_once" android:key="prefsNotifySoundOnce" android:summary="@string/prefs_notify_sound_once_summary" android:dependency="prefsNotifyOn" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/prefs_notify_only_new" android:key="prefsNotifyOnlyNew" android:summary="@string/prefs_notify_only_new_summary" android:dependency="prefsNotifyOn" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/prefs_notify_only_changes" android:key="prefsNotifyOnlyChanges" android:summary="@string/prefs_notify_only_changes_summary" android:dependency="prefsNotifyOn" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/prefs_notify_privacy" android:key="prefsNotifyPrivacy" android:summary="@string/prefs_notify_privacy_summary" android:dependency="prefsNotifyOn" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_send_notify" android:key="prefsCategorySendNotify">
+        <CheckBoxPreference android:title="@string/prefs_category_special_notify" android:key="prefsSpecialSendNotify" android:summary="@string/prefs_category_special_notify_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/prefs_send_notify" android:key="prefsSendNotifyOn" android:summary="@string/prefs_send_notify_summary" android:dependency="prefsSpecialSendNotify" android:defaultValue="false" />
+        <org.kman.AquaMail.prefs.ExtRingtonePreference android:title="@string/prefs_notify_sound" android:key="prefsSendNotifySound" android:dependency="prefsSendNotifyOn" android:ringtoneType="notification" android:showSilent="true" />
+        <CheckBoxPreference android:title="@string/prefs_notify_vibration" android:key="prefsSendNotifyVibration" android:summary="@string/prefs_notify_vibration_summary" android:dependency="prefsSendNotifyOn" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/prefs_notify_vibration_observe_mode" android:key="prefsSendNotifyVibrationObserveMode" android:summary="@string/prefs_notify_vibration_observe_mode_summary" android:dependency="prefsSendNotifyVibration" android:defaultValue="false" />
+        <org.kman.AquaMail.prefs.VibrationPreference android:title="@string/prefs_notify_vibration_pattern" android:key="prefsSendNotifyVibrationPattern" android:summary="@string/prefs_notify_vibration_pattern_default" android:dependency="prefsSendNotifyVibration" android:defaultValue="0" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_storage" android:key="prefsCategoryStorage">
+        <CheckBoxPreference android:title="@string/prefs_category_special_storage" android:key="prefsSpecialStorage" android:summary="@string/prefs_category_special_storage_summary" android:defaultValue="false" aqm:mdmMeta="accountSpecialSettings" />
+        <org.kman.AquaMail.prefs.PickDirectoryPreference android:title="@string/prefs_ui_storage_root" android:key="prefsSpecialStorageRoot" android:dependency="prefsSpecialStorage" aqm:mdmMeta="accountSpecialSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_sync" android:key="prefsCategorySync">
+        <CheckBoxPreference android:title="@string/prefs_category_special_sync" android:key="prefsSpecialSync" android:summary="@string/prefs_category_special_sync_summary" android:defaultValue="false" aqm:mdmMeta="accountSpecialSettings" />
+        <org.kman.AquaMail.prefs.IntegerListPreference android:title="@string/prefs_sync_frequency" android:key="prefsSpecialSyncFreq" android:dependency="prefsSpecialSync" android:defaultValue="15" aqm:entryList="@array/prefs_sync_frequency_entries" aqm:valueList="@array/prefs_sync_frequency_values" aqm:mdmMeta="accountSpecialSettings" />
+        <org.kman.AquaMail.prefs.TimePreference android:title="@string/prefs_sync_frequency_custom" android:key="prefsSpecialSyncFreqCustom" android:dependency="prefsSpecialSync" aqm:mdmMeta="accountSpecialSettings" aqm:isDuration="true" aqm:nullSummary="@string/prefs_sync_frequency_custom_none" aqm:hoursMinutesFormat="@string/prefs_sync_frequency_custom_hours_minutes" aqm:minutesFormat="@string/prefs_sync_frequency_custom_minutes" />
+    </PreferenceCategory>
+</PreferenceScreen>

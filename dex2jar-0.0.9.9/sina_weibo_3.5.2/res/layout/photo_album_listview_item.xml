@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo_album_listeview_item_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/photo_album_show_triangle" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/triangle" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/photo_album_show_triangle" android:layout_toRightOf="@id/photo_album_listeview_item_image" android:layout_centerVertical="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/photo_album_bucket_color" android:ellipsize="end" android:id="@id/photo_album_listview_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/photo_album_bucket_color" android:id="@id/photo_album_listview_item_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

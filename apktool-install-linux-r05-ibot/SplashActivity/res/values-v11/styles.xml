@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Sherlock.__Theme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="AppBaseTheme" parent="@style/Theme.Sherlock.Light">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionButtonStyle">@style/MyActionButton</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/MyActionBarTabBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/back</item>
+        <item name="actionBarItemBackground">@drawable/item_background</item>
+        <item name="searchAutoCompleteTextView">@style/WhiteNormalTitleText</item>
+        <item name="searchViewCloseIcon">@drawable/abs__ic_clear_normal</item>
+        <item name="searchViewSearchIcon">@drawable/action_icon_search</item>
+    </style>
+    <style name="TextColorHint">
+        <item name="android:textColorHint">@color/gray_text</item>
+    </style>
+    <style name="MyActionBarTitleTextStyle" parent="@style/NormalTitleText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="NoActionBarAppTheme" parent="@*android:style/Theme.NoTitleBar.Fullscreen" />
+    <style name="DiscriptionTextView" parent="@style/DiscriptionText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">700.0dip</item>
+        <item name="android:minHeight">40.0dip</item>
+    </style>
+    <style name="MyActionButton" parent="@*android:style/Widget.Holo.Light.ActionButton">
+        <item name="android:background">?actionBarItemBackground</item>
+        <item name="android:minWidth">40.0dip</item>
+    </style>
+    <style name="ActionBarWidgetTheme">
+        <item name="android:dropDownListViewStyle">@style/spinnerListViewStyle</item>
+    </style>
+    <style name="MyActionBar" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/dark_beige</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleTextStyle</item>
+    </style>
+    <style name="MyActionBarTabBarStyle">
+        <item name="android:showDividers">none</item>
+    </style>
+    <style name="MyActionBarTabStyle" />
+    <style name="spinnerListViewStyle" parent="@*android:style/Widget.ListView.DropDown">
+        <item name="android:divider">@color/line_color</item>
+        <item name="android:dividerHeight">1.0dip</item>
+    </style>
+</resources>

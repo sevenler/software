@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_length">160.0dip</dimen>
+    <dimen name="bar_pointer_halo_radius">14.0dip</dimen>
+    <dimen name="bar_pointer_radius">6.0dip</dimen>
+    <dimen name="bar_thickness">4.0dip</dimen>
+    <dimen name="bb_action_bar_size">40.0dip</dimen>
+    <dimen name="bb_action_bar_size_slim">40.0dip</dimen>
+    <dimen name="bb_title_text_size">16.0dip</dimen>
+    <dimen name="bb_title_text_size_slim">14.0dip</dimen>
+    <dimen name="color_center_halo_radius">60.0dip</dimen>
+    <dimen name="color_center_radius">34.0dip</dimen>
+    <dimen name="color_pointer_halo_radius">18.0dip</dimen>
+    <dimen name="color_pointer_radius">14.0dip</dimen>
+    <dimen name="color_wheel_radius">80.0dip</dimen>
+    <dimen name="color_wheel_thickness">16.0dip</dimen>
+    <dimen name="password_keyboard_key_height_numeric">48.0dip</dimen>
+    <dimen name="password_keyboard_key_width_numeric">90.0dip</dimen>
+    <dimen name="message_display_panel_button_size">44.0dip</dimen>
+</resources>

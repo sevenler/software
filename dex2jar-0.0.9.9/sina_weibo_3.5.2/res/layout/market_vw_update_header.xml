@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/root_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">"
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_layout" android:background="@drawable/market_header_bg" android:layout_width="fill_parent" android:layout_height="@dimen/market_list_header_layout_height">
+        <RelativeLayout android:id="@id/update_header_more_layout" android:background="@drawable/market_selector_header_btn_bg" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="fill_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/market_icon_friends" />
+                <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/update_header_more_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/market_find_more" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:id="@id/divider" android:background="@color/market_default_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/update_header_all_update_layout" android:background="@drawable/market_selector_header_btn_bg" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="fill_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">"
+<ImageView android:layout_gravity="center_vertical" android:id="@id/update_header_update_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/market_icon_upadet_header_update" />
+                <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/update_header_all_update_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/market_update_header_all" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/bb_ic_menu_preferences" android:id="@id/message_list_menu_preferences" android:title="@string/account_list_menu_preferences" />
+    <item android:icon="@drawable/bb_ic_menu_refresh" android:id="@id/message_list_menu_refresh" android:visible="false" android:title="@string/message_list_menu_refresh" android:alphabeticShortcut="r" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/bb_ic_menu_edit" android:id="@id/message_list_menu_compose" android:title="@string/message_list_menu_compose" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/bb_ic_menu_search" android:id="@id/message_list_menu_folder_search" android:visible="false" android:title="@string/search_menu_title" android:showAsAction="ifRoom" />
+    <item android:icon="?ic_menu_selectall" android:id="@id/message_list_menu_check_all" android:title="@string/message_list_menu_check_all" android:alphabeticShortcut="a" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/bb_ic_menu_mark" android:id="@id/message_list_menu_mark_all_read" android:visible="false" android:title="@string/message_list_menu_mark_all_read" />
+    <item android:icon="@drawable/bb_ic_menu_sort_alphabetically" android:title="@string/message_list_menu_sort">
+        <menu>
+            <item android:id="@id/message_list_menu_sort_datetime" android:title="@string/message_list_menu_sort_datetime" />
+            <item android:id="@id/message_list_menu_sort_datetime_reverse" android:title="@string/message_list_menu_sort_datetime_reverse" />
+            <item android:id="@id/message_list_menu_sort_subject" android:title="@string/message_list_menu_sort_subject" />
+            <item android:id="@id/message_list_menu_sort_sender" android:title="@string/message_list_menu_sort_sender" />
+            <item android:id="@id/message_list_menu_sort_attachments" android:title="@string/message_list_menu_sort_attachments" />
+            <item android:id="@id/message_list_menu_sort_save_default" android:visible="false" android:title="@string/message_list_menu_sort_save_default" />
+        </menu>
+    </item>
+    <item android:icon="?ic_mark_unread" android:id="@id/message_list_menu_sort_unread_first" android:title="@string/message_list_menu_sort_unread_first" />
+    <item android:icon="?ic_mark_star_on" android:id="@id/message_list_menu_sort_starred_first" android:title="@string/message_list_menu_sort_starred_first" />
+    <item android:icon="@drawable/bb_ic_menu_view" android:title="@string/message_display_menu_view">
+        <menu>
+            <item android:id="@id/font_size_larger" android:title="@string/font_size_larger" />
+            <item android:id="@id/font_size_smaller" android:title="@string/font_size_smaller" />
+            <item android:id="@id/message_list_menu_show_all" android:visible="false" android:title="@string/message_list_showing_all" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/bb_ic_menu_delete" android:id="@id/message_list_menu_purge_deleted" android:visible="false" android:title="@string/message_list_menu_purge_deleted" />
+    <item android:icon="@drawable/bb_ic_menu_view" android:id="@id/message_list_menu_restore_hidden" android:visible="false" android:title="@string/message_list_menu_restore_hidden" />
+</menu>

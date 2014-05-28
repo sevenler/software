@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_options_prefs_delete_plan_entries">
+        <item>Mover a la papelera</item>
+        <item>Borrar del servidor</item>
+        <item>Ocultar, pero mantener en el servidor</item>
+    </string-array>
+    <string-array name="account_options_prefs_folder_sort_entries">
+        <item>Por nombre de carpeta</item>
+        <item>Por mensajes no leidos</item>
+        <item>Por numero de mensajes</item>
+    </string-array>
+    <string-array name="account_options_prefs_pop3_delayed_delete_entries">
+        <item>Nueva sesion (inmediato)</item>
+        <item>Compartir sesion (proxima comprobacion)</item>
+    </string-array>
+    <string-array name="account_options_prefs_pop3_locate_limit_entries">
+        <item>10 mensajes</item>
+        <item>25 mensajes</item>
+        <item>50 mensajes</item>
+        <item>100 mensajes</item>
+        <item>250 mensajes</item>
+    </string-array>
+    <string-array name="account_setup_incoming_pop3_order_array">
+        <item>Automatico</item>
+        <item>Directo (comun)</item>
+        <item>Inverso (raro)</item>
+    </string-array>
+    <string-array name="account_setup_incoming_server_type_array">
+        <item>IMAP</item>
+        <item>POP3</item>
+    </string-array>
+    <string-array name="account_setup_server_security_array">
+        <item>No encriptado</item>
+        <item>SSL (estricto)</item>
+        <item>SSL (aceptar todos)</item>
+        <item>STARTTLS (estricto)</item>
+        <item>STARTTLS (aceptar todos)</item>
+    </string-array>
+    <string-array name="account_setup_smtp_login_scheme_array">
+        <item>Automatico</item>
+        <item>Sin login</item>
+        <item>SASL CRAM-MD5</item>
+        <item>SASL PLAIN</item>
+        <item>SASL LOGIN</item>
+    </string-array>
+    <string-array name="prefs_command_batch_size_entries">
+        <item>Corto (mejor respuesta)</item>
+        <item>Largo (mejor rendimiento)</item>
+    </string-array>
+    <string-array name="prefs_debug_log_target_entries">
+        <item>Logcat (log de sistema)</item>
+        <item>Directorio raiz de SD</item>
+    </string-array>
+    <string-array name="prefs_display_mark_read_entries">
+        <item>Inmediatamente</item>
+        <item>Despues de 3 segundos</item>
+        <item>Despues de 5 segundos</item>
+        <item>Despues de 10 segundos</item>
+        <item>Despues de 15 segundos</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="prefs_load_the_rest_entries">
+        <item>Hasta 5 KB</item>
+        <item>Hasta 10 KB</item>
+        <item>Hasta 25 KB</item>
+        <item>Hasta 50 KB</item>
+        <item>Hasta 100 KB</item>
+        <item>Sin limite</item>
+        <item>Otros valores</item>
+    </string-array>
+    <string-array name="prefs_locale_default_on_off_entries">
+        <item>Sin cambios</item>
+        <item>Habilitado</item>
+        <item>Deshabilitado</item>
+    </string-array>
+    <string-array name="prefs_locale_default_tri_state_entries">
+        <item>Sin cambios</item>
+        <item>Habilitado</item>
+        <item>Restaurar valores por defecto</item>
+    </string-array>
+    <string-array name="prefs_message_preload_limit_entries">
+        <item>Solo encabezados</item>
+        <item>Hasta 1 KB</item>
+        <item>Hasta 5 KB</item>
+        <item>Hasta 10 KB</item>
+        <item>Hasta 25 KB</item>
+        <item>Hasta 64 KB</item>
+        <item>Sin limite</item>
+        <item>Otros valores</item>
+    </string-array>
+    <string-array name="prefs_notify_weekend_entries">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+    </string-array>
+    <integer-array name="prefs_notify_weekend_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="prefs_sync_system_checks_entries">
+        <item>Observar todo</item>
+        <item>Aunque Auto-Sync este apagado</item>
+        <item>Aunque Background data este apagado</item>
+    </string-array>
+    <string-array name="prefs_ui_after_delete_entries">
+        <item>Volver a la lista de mensajes</item>
+        <item>Ir al mensaje previo</item>
+        <item>Ir al siguiente mensaje</item>
+    </string-array>
+    <string-array name="prefs_ui_bogus_bar_position_entries">
+        <item>Automatico</item>
+        <item>Arriba</item>
+        <item>Abajo</item>
+    </string-array>
+    <string-array name="prefs_ui_main_expand_entries">
+        <item>Ninguno</item>
+        <item>Mensajes no leidos</item>
+        <item>Todos</item>
+    </string-array>
+    <string-array name="prefs_ui_orientation_entries">
+        <item>Girar con el dispositivo</item>
+        <item>Vertical</item>
+        <item>Horizontal</item>
+    </string-array>
+    <string-array name="prefs_ui_theme_entries">
+        <item>Claro</item>
+        <item>Oscuro con los mensajes claros</item>
+        <item>Oscuro, incluyendo mensajes</item>
+    </string-array>
+    <string-array name="uilock_timeout_entries">
+        <item>Inmediatamente</item>
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>15 minutos</item>
+    </string-array>
+    <string-array name="widget_theme_array">
+        <item>Metal</item>
+        <item>Porcelana</item>
+        <item>Cristal</item>
+        <item>Sin marco</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" style="@style/top_bar_layout">
+        <ImageView android:id="@id/imgpushback" style="@style/top_bar_back" />
+        <Button android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center" android:layout_gravity="right" android:id="@id/editbutton" android:padding="0.0dip" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/li_edit_title" style="@style/top_bar_manage" />
+    </FrameLayout>
+    <View android:background="#ffdcd8d4" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/frameLayout1" />
+    <com.androidesk.util.GuideViewPaper android:gravity="center" android:id="@id/gallery" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="60.0dip" android:spacing="10.0dip" android:layout_below="@id/frameLayout1" android:layout_centerInParent="true" android:unselectedAlpha="255.0" />
+    <ImageView android:gravity="center" android:id="@id/editImageview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="60.0dip" android:layout_below="@id/frameLayout1" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:id="@id/relativeLayout1" android:paddingTop="5.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/deleteWallpaperBtn" android:background="@drawable/select_single_box_delete" android:layout_width="60.0dip" android:layout_height="49.0dip" android:layout_marginLeft="15.0dip" />
+        <Button android:textColor="@color/blue_text" android:id="@id/setWallpaperBtn" android:background="@drawable/select_button_live" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/settings3_wallpaper_set_button" android:layout_weight="1.0" />
+        <Button android:id="@id/cropWallpaperBtn" android:background="@drawable/select_single_box_cut" android:layout_width="60.0dip" android:layout_height="49.0dip" android:layout_marginRight="15.0dip" />
+    </LinearLayout>
+</RelativeLayout>
