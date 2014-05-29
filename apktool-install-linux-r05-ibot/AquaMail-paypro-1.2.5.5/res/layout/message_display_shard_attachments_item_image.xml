@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<org.kman.AquaMail.view.CheckableLinearLayout android:orientation="vertical" android:id="@id/part_root" android:background="?messageListBackgroundUnread" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/part_preview_image" android:background="@drawable/attachment_preview_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:adjustViewBounds="true" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/message_display_attachment_item_height">
-        <include layout="@layout/message_display_shard_attachments_item_merge" />
-    </LinearLayout>
-</org.kman.AquaMail.view.CheckableLinearLayout>

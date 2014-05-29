@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:id="@id/webview_context_menu_url_group">
-        <item android:id="@id/webview_context_menu_url_open" android:title="@string/webview_context_menu_url_open" />
-        <item android:id="@id/webview_context_menu_url_copy" android:title="@string/webview_context_menu_url_copy" />
-        <item android:id="@id/webview_context_menu_url_send" android:title="@string/webview_context_menu_url_send" />
-    </group>
-</menu>

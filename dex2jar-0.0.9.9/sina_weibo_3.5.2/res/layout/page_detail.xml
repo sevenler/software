@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ScrollView android:padding="9.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/lyDetail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</ScrollView>

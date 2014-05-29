@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageView android:id="@id/folder_pref_options" android:background="@drawable/bb_item_background_selector" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bb_ic_menu_preferences" android:scaleType="center" android:minWidth="48.0dip" android:layout_centerVertical="true" android:contentDescription="@string/access_folder_settings"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

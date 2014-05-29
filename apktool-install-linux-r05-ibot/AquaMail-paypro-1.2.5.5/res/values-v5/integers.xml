@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="aquamail_ui_mediator">0</integer>
-    <integer name="aquamail_ui_mediator_two_pane_mode_default">2</integer>
-    <integer name="message_display_header_anim_duration">250</integer>
-    <integer name="message_display_header_anim_offset">150</integer>
-    <integer name="prefs_size_other_value_none">-2</integer>
-</resources>

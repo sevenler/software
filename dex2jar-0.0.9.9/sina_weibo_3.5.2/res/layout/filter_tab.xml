@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/filterContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <ImageView android:id="@id/filterItemBorder" android:paddingLeft="2.0dip" android:paddingTop="1.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/filter_wb_bg_pic_across" />
-</RelativeLayout>

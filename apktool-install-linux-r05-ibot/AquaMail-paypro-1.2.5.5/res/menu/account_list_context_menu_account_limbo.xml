@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/account_list_menu_settings" android:title="@string/account_list_menu_settings" />
-    <item android:id="@id/account_list_menu_delete" android:title="@string/account_list_menu_delete" />
-</menu>

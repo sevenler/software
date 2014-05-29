@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:background="@drawable/bb_item_background_selector" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <ImageView android:layout_gravity="center_vertical" android:id="@id/bb_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
-        <TextView android:textAppearance="?bb_actionMenuTextAppearance" android:textColor="?bb_actionMenuTextColor" android:layout_gravity="center_vertical" android:id="@id/bb_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </LinearLayout>
-    <ImageView android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="1.0dip" android:layout_height="fill_parent" android:src="?bb_dividerVertical" android:scaleType="fitXY" />
-</LinearLayout>

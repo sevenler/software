@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:id="@id/llStartWeibo" android:background="@drawable/login_toolbar_bg" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentBottom="true">
-        <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/start_weibo" android:background="@drawable/new_regist_button" android:layout_width="fill_parent" android:layout_height="@dimen/new_regist_height_bt" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:text="@string/new_regist_start_weibo" android:shadowColor="@color/login_btn_shadow_color" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="3.0" />
-    </LinearLayout>
-    <ListView android:id="@id/interest_people_lv" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:drawSelectorOnTop="false" android:scrollingCache="false" android:divider="@drawable/transparent" android:dividerHeight="0.0dip" android:layout_above="@id/llStartWeibo" />
-</RelativeLayout>

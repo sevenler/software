@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="widget_frame_padding">0.0dip</dimen>
-    <dimen name="list_widget_hc_minHeight">140.0dip</dimen>
-    <dimen name="list_widget_hc_minResizeWidth">140.0dip</dimen>
-    <dimen name="list_widget_hc_minWidth">290.0dip</dimen>
-</resources>

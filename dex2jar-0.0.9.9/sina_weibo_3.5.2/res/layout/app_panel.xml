@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:weibo="http://schemas.android.com/apk/res/com.sina.weibo">
-    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="195.0dip" />
-    <LinearLayout android:gravity="center" android:id="@id/indicator_root" android:layout_width="fill_parent" android:layout_height="21.0dip">
-        <com.sina.weibo.view.CirclePageIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" weibo:fillColor="@color/app_panel_dot_fill_color" weibo:pageColor="@color/app_panel_dot_page_color" weibo:radius="3.5dip" weibo:strokeWidth="0.0dip" />
-    </LinearLayout>
-</merge>

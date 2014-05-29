@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<LinearLayout android:padding="4.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="54.0dip" android:minHeight="54.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/rl_card" android:padding="4.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip">
-        <ImageView android:id="@id/iv_pic" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="2.0dip" android:layout_centerVertical="true" />
-        <TextView android:textSize="15.0sp" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/iv_pic" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</LinearLayout>

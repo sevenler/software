@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/message_item_title_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:id="@id/message_type" android:background="@null" android:layout_width="@dimen/message_item_title_height" android:layout_height="@dimen/message_item_title_height" android:layout_marginRight="3.0dip" android:src="@drawable/icon_like_press" />
-    <TextView android:gravity="center_vertical" android:id="@id/message_content" android:layout_width="fill_parent" android:layout_height="@dimen/message_item_title_height" style="@style/DiscriptionText" />
-</LinearLayout>

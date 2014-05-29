@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RelativeLayout android:paddingTop="@dimen/card_title_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0sp" android:textColor="@color/card_name_text_color" android:ellipsize="end" android:id="@id/tv_page_mblog_title" android:paddingLeft="@dimen/card_title_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" />
-    <com.sina.weibo.view.MBlogListItemView android:id="@id/mblog_item_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_page_mblog_title" />
-    <com.sina.weibo.view.CardMblogItemView android:id="@id/card_mblog_item_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_page_mblog_title" />
-</RelativeLayout>

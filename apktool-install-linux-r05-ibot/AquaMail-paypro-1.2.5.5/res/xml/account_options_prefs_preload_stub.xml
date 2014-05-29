@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:title="@string/account_options_preload_message_text" android:key="prefPreloadText" android:summary="@string/preferences_activity" />
-    <Preference android:title="@string/account_options_preload_message_parts" android:key="prefPreloadParts" android:summary="@string/account_options_activity" />
-</PreferenceScreen>

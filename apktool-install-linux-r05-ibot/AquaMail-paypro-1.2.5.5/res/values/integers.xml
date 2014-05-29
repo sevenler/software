@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="bb_config_activityDefaultDur">220</integer>
-    <integer name="bb_config_activityShortDur">150</integer>
-    <integer name="bb_config_hardMenuGravity">1</integer>
-</resources>

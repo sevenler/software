@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="preview_attachment_height">200.0dip</dimen>
-    <dimen name="preview_attachment_height_compact">150.0dip</dimen>
-    <dimen name="preview_attachment_width">350.0dip</dimen>
-    <dimen name="preview_attachment_width_compact">250.0dip</dimen>
-</resources>

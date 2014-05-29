@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/bb_ic_menu_account_list" android:id="@id/account_list_menu_uilock_now" android:title="@string/account_list_menu_uilock_now" />
-</menu>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/item_portrait" android:padding="0.0dip" android:saveEnabled="true" android:layout_width="34.0dip" android:layout_height="34.0dip" android:scaleType="fitXY" android:adjustViewBounds="false" />
-    <ImageView android:id="@id/item_portrait_v" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitXY" android:adjustViewBounds="false" />
-</RelativeLayout>

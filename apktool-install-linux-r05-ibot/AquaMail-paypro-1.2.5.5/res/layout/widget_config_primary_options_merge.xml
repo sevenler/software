@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/account_setup_simple_label_sp" android:id="@id/label_account_and_folder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label_account_and_folder" />
-    <Spinner android:id="@id/spinner_account_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/widget_select_account" />
-    <Spinner android:id="@id/spinner_folder_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/widget_select_folder" />
-</merge>

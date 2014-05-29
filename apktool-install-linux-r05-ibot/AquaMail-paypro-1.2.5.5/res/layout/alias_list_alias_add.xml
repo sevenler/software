@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/alias_list_item_root" android:paddingLeft="@dimen/account_list_item_spacing_horz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_alias_list_add" />
-</FrameLayout>

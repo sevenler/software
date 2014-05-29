@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider android:minWidth="@dimen/list_widget_hc_minWidth" android:minHeight="@dimen/list_widget_hc_minHeight" android:initialLayout="@layout/widget_initial" android:configure="org.kman.AquaMail.widget.ListWidgetConfigActivity_hc" android:previewImage="@drawable/list_widget_hc_preview" android:resizeMode="horizontal|vertical" android:minResizeWidth="@dimen/list_widget_hc_minResizeWidth" android:widgetCategory="home_screen|keyguard"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

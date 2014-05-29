@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/tab" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="50.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
-        <TextView android:gravity="center" android:id="@id/count" android:layout_width="fill_parent" android:layout_height="25.0dip" style="@style/TitleText" />
-        <TextView android:gravity="top|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="25.0dip" style="@style/DiscriptionText" />
-    </LinearLayout>
-    <View android:background="#ffdcdcdc" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
-</RelativeLayout>

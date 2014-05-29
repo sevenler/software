@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="highlight_pressed_1">#a000c7ff</color>
-    <color name="highlight_pressed_2">#a000a6ff</color>
-    <color name="highlight_selected_1">#a00092ff</color>
-    <color name="highlight_selected_2">#a00069ff</color>
-    <color name="theme_dark_window_background">#ff000000</color>
-    <color name="theme_light_window_background">#ffffffff</color>
-</resources>
